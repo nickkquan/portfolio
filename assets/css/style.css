@@ -304,7 +304,7 @@ textarea:focus {
   margin: -50px 0 0 -50px;
   border-radius: 50%;
   border: 3px solid transparent;
-  border-top-color: #bfa67a;
+  border-top-color: #a6acb5;
   animation: spin 2s linear infinite;
 }
 
@@ -317,7 +317,7 @@ textarea:focus {
   bottom: 5px;
   border-radius: 50%;
   border: 3px solid transparent;
-  border-top-color: #bfa67a;
+  border-top-color: #a6acb5;
   animation: spin 3s linear infinite;
 }
 
@@ -330,7 +330,7 @@ textarea:focus {
   bottom: 15px;
   border-radius: 50%;
   border: 3px solid transparent;
-  border-top-color: #bfa67a;
+  border-top-color: #a6acb5;
   animation: spin 1.5s linear infinite;
 }
 
