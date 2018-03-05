@@ -93,6 +93,10 @@ body {
 
 /*end portfolio*/
 
+.skillNotActive{
+  cursor: default;
+}
+
 .service-icons {
   height: 33%;
   width: 33%;
