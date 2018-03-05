@@ -101,14 +101,17 @@ body {
   height: 25%;
   width: 23%;
 }
-.service-icons-material {
-  height: 33%;
-  width: 40%;
-}
 .service-icons-redux {
   height: 33%;
   width: 35%;
 }
+
+.service-icons-meistertask{
+  height: 33%;
+  width: 33%;
+  margin-bottom: 6.8%;
+}
+
 .pb-30 {
   padding-bottom: 120px;
 }
