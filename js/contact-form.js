@@ -3,6 +3,7 @@
  --------------------------------------------- */
 $(document).ready(function() {
 	$("#submit_btn").click(function() {
+		$("#submit_btn").text("Sending...")
 		//get input field values
 		var user_name = $("input[name=name]").val();
 		var user_email = $("input[name=email]").val();
@@ -62,6 +63,7 @@ $(document).ready(function() {
 						.find("input[type=email], textarea")
 						.val("");
 					var alertBox = "<div class='messageSent'>Message Sent</div>";
+					$("#submit_btn").text("Submit Message")
 					$(".messages .messageSent").remove();
 					$(".messages").append($(alertBox));
 				},
