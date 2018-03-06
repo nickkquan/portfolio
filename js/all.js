@@ -11,7 +11,7 @@
 		$("body").imagesLoaded(function() {
 			$(".page-loader div").fadeOut();
 			$(".page-loader")
-				.delay(200)
+				.delay(180)
 				.fadeOut("slow");
 		});
 
