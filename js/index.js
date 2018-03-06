@@ -36,7 +36,6 @@ function closeNav() {
 }
 
 function hideNav() {
-	console.log("scrolling");
 	$(document).scroll(() => {
 		$(".js-opened").css({
 			"display": "none"
