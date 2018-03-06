@@ -62,6 +62,7 @@ $(document).ready(function() {
 						.find("input[type=email], textarea")
 						.val("");
 					var alertBox = "<div class='messageSent'>Message Sent</div>";
+					$(".messages .messageSent").remove();
 					$(".messages").append($(alertBox));
 				},
 				error: function(response) {
