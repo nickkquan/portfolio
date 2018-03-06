@@ -65,8 +65,11 @@ $(document).ready(function() {
 					$(".messages").append($(alertBox));
 				},
 				error: function(response) {
-					var alertBox = "<div class='messageNotSent'>Please Try Again</div>";
-					$(".messages").append($(alertBox));
+					var alertBox = "<div class='messageNotSent messageError'>Please Try Again</div>";
+					if (response) {
+						$(".messages .messageError").remove();
+						$(".messages").append($(alertBox));
+					}
 				}
 			});
 		}
