@@ -280,13 +280,11 @@ Primary use:    MultiPurpose Template
   .alt-service-item {
     margin-top: 30px;
   }
-
   .works-filter a {
     padding-left: 10px;
     padding-right: 10px;
     margin: 4px;
   }
-
   .blog-item {
     margin-bottom: 50px;
   }
@@ -309,11 +307,9 @@ Primary use:    MultiPurpose Template
   .blog-item-body .small {
     font-size: 13px;
   }
-
   #map-canvas {
     height: 300px;
   }
-
   .fm-logo-wrap {
     top: 17px;
     left: 17px;
@@ -342,7 +338,6 @@ Primary use:    MultiPurpose Template
   .hs-image {
     display: none;
   }
-
   .hs-wrap-1 {
     max-width: 240px;
   }
@@ -356,7 +351,6 @@ Primary use:    MultiPurpose Template
   .hs-line-7 {
     font-size: 32px;
   }
-
   .hs-line-9 {
     font-size: 48px;
   }
@@ -368,11 +362,9 @@ Primary use:    MultiPurpose Template
   .hs-line-10 > span {
     margin: 0;
   }
-
   .hs-line-11 {
     font-size: 24px;
   }
-
   .hs-line-12 {
     font-size: 44px;
   }
@@ -387,34 +379,28 @@ Primary use:    MultiPurpose Template
   .hs-line-15 {
     font-size: 32px;
   }
-
   .team-item {
     max-width: 370px;
     margin-left: auto;
     margin-right: auto;
   }
-
   .alt-features-grid {
     margin-top: -30px;
   }
   .alt-features-item {
     margin-top: 30px;
   }
-
   .benefit-item {
     width: 230px;
     padding: 0;
   }
-
   .benefit-item:hover:after {
     display: none;
   }
-
   .wide-heading {
     font-size: 32px;
     letter-spacing: 2px;
   }
-
   .works-filter a {
     padding-left: 10px;
     padding-right: 10px;
@@ -422,7 +408,6 @@ Primary use:    MultiPurpose Template
     width: 46%;
     font-size: 11px;
   }
-
   .blog-item-date {
     width: auto;
     position: relative;
@@ -454,21 +439,18 @@ Primary use:    MultiPurpose Template
   .banner-image {
     text-align: center;
   }
-
   .cf-left-col,
   .cf-right-col {
     width: auto;
     margin-right: 0;
     float: none;
   }
-
   .section-more,
   .section-more.left,
   .section-more.right {
     float: none !important;
     display: block;
   }
-
   .big-icon {
     width: 60px;
     height: 60px;
@@ -476,7 +458,6 @@ Primary use:    MultiPurpose Template
     font-size: 24px;
     margin-bottom: 0;
   }
-
   .blog-slide-info {
     padding: 10px;
   }
@@ -486,7 +467,6 @@ Primary use:    MultiPurpose Template
   .blog-slide-data {
     display: none;
   }
-
   .top-bar {
     min-height: 0;
   }

@@ -136,6 +136,7 @@ Section Text:       15px/1.7 "Open Sans", arial, sans-serif;
     -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
 }
+
 .no-animate, .no-animate *{
     -webkit-transition: 0 none !important;
     -moz-transition: 0 none !important;
@@ -4139,7 +4140,6 @@ a.link-to-top{
     color: rgba(0,0,0, .2);
     font-size: 48px;
 }
-
 
 /* ==============================
    Blog
