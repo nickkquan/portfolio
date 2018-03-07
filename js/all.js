@@ -270,9 +270,9 @@
 	function init_scroll_navigate() {
 		$(".local-scroll").localScroll({
 			target: "body",
-			duration: 1500,
+			duration: 1000,
 			offset: 0,
-			easing: "easeInOutExpo"
+			easing: "easeOutSine"
 		});
 
 		var sections = $(".home-section, .split-section, .page-section");

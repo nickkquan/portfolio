@@ -4069,10 +4069,14 @@ a.logo:hover{
     color: #999;
 }
 
+#footer-links{
+    margin-bottom: 75px;
+}
 
 .footer-social-links{
     font-size: 14px;
 }
+
 .footer-social-links a{
     width: 25px;
     height: 25px;
@@ -4140,6 +4144,11 @@ a.link-to-top{
     color: rgba(0,0,0, .2);
     font-size: 48px;
 }
+
+#footer {
+    padding: 20px;
+}
+
 
 /* ==============================
    Blog
