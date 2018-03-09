@@ -1,986 +1,939 @@
 <!DOCTYPE html>
-<html lang="en">
+<html dir="rtl">
 
 <head>
+    <title>Nick Quan | Web Developer</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Nick Quan | Front-End Developer</title>
+    <meta name="author" content="Roman Kirichik">
+    <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
 
-    <!-- plugins -->
-    <link href="assets/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/ionicons/css/ionicons.min.css" rel="stylesheet">
-    <link href="assets/bower_components/flexslider/flexslider.css" rel="stylesheet">
-    <link rel='stylesheet' type="text/css" href="assets/dzsparallaxer/dzsparallaxer.css" />
-    <link href="assets/cubeportfolio/css/cubeportfolio.min.css" rel="stylesheet">
-    <!--main css file-->
-    <link href="assets/css/style.css" rel="stylesheet">
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-        <![endif]-->
+    <!-- Favicons -->
+    <link rel="shortcut icon" type="image" href="images/favicon.jpg" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-rtl.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-responsive.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/vertical-rhythm.min.css">
+    <!-- <link rel="stylesheet" href="css/owl.carousel.css"> -->
+    <!-- <link rel="stylesheet" href="css/magnific-popup.css"> -->
+    <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+
+
 </head>
 
-<body data-spy="scroll">
-    <div id="preloader">
-        <div id="preloader-inner"></div>
+<body class="appear-animate">
+
+    <!-- Page Loader -->
+    <div class="page-loader">
+        <div class="loader">Loading...</div>
     </div>
-    <!--/preloader-->
+    <!-- End Page Loader -->
 
+    <!-- Page Wrap -->
+    <div class="page" id="top">
 
-    <!--  navbar -->
-    <nav class="navbar navbar-expand-md fixed-top transparent-nav navbar-dark bg-dark">
-        <div class="container">
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <a class="navbar-brand" href="index.html">
-                <img src="assets/images/logo-light.png" alt="logo">
-            </a>
+        <!-- Home Section -->
+        <section class="home-section bg-dark-alfa-30 parallax-2" data-background="images/full-width-images/background.jpg" id="home">
+            <div class="js-height-full">
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a data-scroll href="#home" class="nav-link active">Home</a>
-                    </li>
-                    <li class=" nav-item">
-                        <a data-scroll href="#agency" class="nav-link">About Me</a>
-                    </li>
-                    <li class=" nav-item">
-                        <a data-scroll href="#services" class="nav-link">Services</a>
-                    </li>
-                    <li class=" nav-item">
-                        <a data-scroll href="#work" class="nav-link">Projects</a>
-                    </li>
-                    <li class=" nav-item">
-                        <a data-scroll href="#contact" class="nav-link">Contact</a>
-                    </li>
-                    <!-- <li class="dropdown nav-item">
-                        <span class="dropdown-toggle menu-drop-toggle nav-link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">More</span>
-                        <ul class="dropdown-menu dropdown-menu-right">
-                            <li>
-                                <a class="dropdown-item" href="blog-standard.html">Blog Standard</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="blog-masonry.html">Blog Masonry</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="blog-single.html">blog-post</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="typography.html">Typography</a>
-                            </li>
-                        </ul>
-                    </li> -->
-                </ul>
-
-            </div>
-        </div>
-    </nav>
-    <!--end navigation-->
-    <!--slider start-->
-    <section id="home" class="overflow-hidden slider-banner">
-        <div class="main-slider">
-            <ul class="slides">
-                <li>
-                    <img src="assets/images/bg-1.jpg" alt="" class="img-fluid">
-                    <div class="slider-overlay">
-                        <div class="slider-table">
-                            <div class="slider-vm">
-                                <div class="container text-center">
-                                    <h1>Nick Quan</h1>
-                                    <p>Front-End Developer</p>
-                                    <a href="#" class="btn btn-lg btn-white-border">Download Resume</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--slider overlay end-->
-                </li>
-                <!-- <li>
-                    <img src="assets/images/bg-2.jpg" alt="" class="img-fluid">
-                    <div class="slider-overlay">
-                        <div class="slider-table">
-                            <div class="slider-vm">
-                                <div class="container text-center">
-                                    <h1>Digital web studio</h1>
-                                    <p>Creative digital agency</p>
-                                    <a href="#" class="btn btn-lg btn-white-border">Our Services</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- slider overlay end - ->
-                </li> -->
-                <!-- <li>
-                    <img src="assets/images/bg-3.jpg" alt="" class="img-fluid">
-                    <div class="slider-overlay">
-                        <div class="slider-table">
-                            <div class="slider-vm">
-                                <div class="container text-center">
-                                    <h1>Awesome Parallax effects</h1>
-                                    <p>Creative digital agency</p>
-                                    <a href="#" class="btn btn-lg btn-white-border">Learn more</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--slider overlay end- ->
-                </li> -->
-            </ul>
-            <!--slides end-->
-        </div>
-        <!--slider end-->
-    </section>
-
-    <section id="agency">
-        <div class="space-100"></div>
-        <div class="container">
-            <h2 class="center-title scrollReveal sr-bottom">Who we are</h2>
-            <div class="center-border"></div>
-            <div class="space-40"></div>
-            <div>
-                <!-- Nav tabs -->
-                <ul class="list-inline text-center about-tabs justify-content-center nav margin-b-40" role="tablist">
-                    <li role="presentation" class="nav-item">
-                        <a class="nav-link active" href="#about-agency" aria-controls="about-agency" role="tab" data-toggle="tab">About</a>
-                    </li>
-                    <li role="presentation" class=" nav-item">
-                        <a class="nav-link" href="#skills" aria-controls="skills" role="tab" data-toggle="tab">Skills</a>
-                    </li>
-                    <li role="presentation" class=" nav-item">
-                        <a class="nav-link" href="#process" aria-controls="process" role="tab" data-toggle="tab">Process</a>
-                    </li>
-                </ul>
-
-                <!-- Tab panes -->
-                <div class="tab-content">
-                    <div role="tabpanel" class="tab-pane active" id="about-agency">
-                        <div class="row">
-                            <div class="col-md-8 mr-auto ml-auto text-center">
-                                <p class="lead">
-                                    We are
-                                    <span class="text-color">Minimal Web agency</span> based In Sydney. We create awesome stuff for web & App Designs.
-                                    It is a long established fact that a reader will be distracted by the readable content
-                                    of a page when looking at its layout.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div role="tabpanel" class="tab-pane" id="skills">
-                        <div class="col-md-8 mr-auto ml-auto text-center">
-                            <div class="progress clearfix">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
-                                    <span class="skill-name">HTML5 / CSS3</span>
-                                    <span class="float-right value">80%</span>
-                                </div>
-                            </div>
-                            <!--progress bar-->
-                            <div class="progress clearfix">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:70%">
-                                    <span class="skill-name">Photoshop</span>
-                                    <span class="float-right value">70%</span>
-                                </div>
-                            </div>
-                            <!--progress bar-->
-                            <div class="progress clearfix">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:90%">
-                                    <span class="skill-name">Jquery</span>
-                                    <span class="float-right value">90%</span>
-                                </div>
-                            </div>
-                            <!--progress bar-->
-                            <div class="progress clearfix">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:97%">
-                                    <span class="skill-name">Tea</span>
-                                    <span class="float-right value">97%</span>
-                                </div>
-                            </div>
-                            <!--progress bar-->
-                        </div>
-                    </div>
-                    <!--tab panel end-->
-                    <div role="tabpanel" class="tab-pane" id="process">
-                        <div class="row">
-                            <div class="col-md-3 col-sm-6 margin-b-30">
-                                <div class="process-box">
-                                    <h2>
-                                        <span class="text-color">1.</span> idea</h2>
-                                    <p>
-                                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="col-md-3 col-sm-6 margin-b-30">
-                                <div class="process-box">
-                                    <h2>
-                                        <span class="text-color">2.</span> Design</h2>
-                                    <p>
-                                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="col-md-3 col-sm-6 margin-b-30">
-                                <div class="process-box">
-                                    <h2>
-                                        <span class="text-color">3.</span> Develop</h2>
-                                    <p>
-                                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="col-md-3 col-sm-6 margin-b-30">
-                                <div class="process-box">
-                                    <h2>
-                                        <span class="text-color">4.</span> Launch</h2>
-                                    <p>
-                                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--tab panel end-->
-                </div>
-                <!--tab content end-->
-            </div>
-        </div>
-        <!--container end-->
-        <div class="space-80"></div>
-    </section>
-    <!--end about section-->
-
-
-    <!-- Parallax -->
-    <div class="dzsparallaxer auto-init" data-options='{   direction: "reverse"}' style="height: 350px;">
-
-        <div class="divimage dzsparallaxer--target " style="width: 101%; height: 600px; background-image: url(assets/images/bg-2.jpg)">
-        </div>
-        <div class=" parallax-text text-center center-it">
-            <h2>" A Super Simple Minimal One Page for Creative & Small Agencies "</h2>
-        </div>
-    </div>
-    <!-- End Parallax -->
-
-    <!--our team start-->
-    <div class="team-wrapper">
-        <div class="space-100"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-lg-3 margin-b-30">
-                    <div class="person-col scrollReveal sr-bottom sr-ease-in-out-quad sr-delay-1">
-                        <img src="assets/images/team1.png" alt="" class="img-fluid">
-                        <div class="person-overlay">
-                            <div class="person-inner">
-                                <h4 class="text-uppercase">Carlos Smith</h4>
-                                <span>Project Manager</span>
-                                <ul class="list-inline">
-                                    <li class="list-inline-item">
-                                        <a href="#">
-                                            <i class="ion-social-facebook"></i>
-                                        </a>
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <a href="#">
-                                            <i class="ion-social-twitter"></i>
-                                        </a>
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <a href="#">
-                                            <i class="ion-social-instagram"></i>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <!--person overlay end-->
-                    </div>
-                    <!--person col end-->
-                </div>
-                <!--col-->
-                <div class="col-md-6 col-lg-3 margin-b-30">
-                    <div class="person-col person-col scrollReveal sr-bottom sr-ease-in-out-quad sr-delay-2">
-                        <img src="assets/images/team2.png" alt="" class="img-fluid">
-                        <div class="person-overlay">
-                            <div class="person-inner">
-                                <h4 class="text-uppercase">Emily Doe</h4>
-                                <span>Cms-Developer</span>
-                                <ul class="list-inline">
-                                    <li class="list-inline-item">
-                                        <a href="#">
-                                            <i class="ion-social-facebook"></i>
-                                        </a>
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <a href="#">
-                                            <i class="ion-social-twitter"></i>
-                                        </a>
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <a href="#">
-                                            <i class="ion-social-instagram"></i>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <!--person overlay end-->
-                    </div>
-                    <!--person col end-->
-                </div>
-                <!--col-->
-                <div class="col-md-6 col-lg-3 margin-b-30">
-                    <div class="person-col person-col scrollReveal sr-bottom sr-ease-in-out-quad sr-delay-3">
-                        <img src="assets/images/team3.png" alt="" class="img-fluid">
-                        <div class="person-overlay">
-                            <div class="person-inner">
-                                <h4 class="text-uppercase">Emily Doe</h4>
-                                <span>Co-founder</span>
-                                <ul class="list-inline">
-                                    <li class="list-inline-item">
-                                        <a href="#">
-                                            <i class="ion-social-facebook"></i>
-                                        </a>
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <a href="#">
-                                            <i class="ion-social-twitter"></i>
-                                        </a>
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <a href="#">
-                                            <i class="ion-social-instagram"></i>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <!--person overlay end-->
-                    </div>
-                    <!--person col end-->
-                </div>
-                <!--col-->
-                <div class="col-md-6 col-lg-3 margin-b-30">
-                    <div class="person-col person-col scrollReveal sr-bottom sr-ease-in-out-quad sr-delay-4">
-                        <img src="assets/images/team4.png" alt="" class="img-fluid">
-                        <div class="person-overlay">
-                            <div class="person-inner">
-                                <h4 class="text-uppercase">John Doe</h4>
-                                <span>UI / UX Designer</span>
-                                <ul class="list-inline">
-                                    <li class="list-inline-item">
-                                        <a href="#">
-                                            <i class="ion-social-facebook"></i>
-                                        </a>
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <a href="#">
-                                            <i class="ion-social-twitter"></i>
-                                        </a>
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <a href="#">
-                                            <i class="ion-social-instagram"></i>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <!--person overlay end-->
-                    </div>
-                    <!--person col end-->
-                </div>
-                <!--col-->
-            </div>
-            <!--row-->
-        </div>
-        <div class="space-70"></div>
-    </div>
-    <!--our team end-->
-
-    <!-- video tour-->
-    <!-- <div class="dzsparallaxer auto-init" data-options='{   direction: "reverse"}' style="height: 350px;">
-
-        <div class="divimage dzsparallaxer--target " style="width: 101%; height: 600px; background-image: url(assets/images/bg-2.jpg)">
-        </div>
-        <div class=" parallax-text text-center center-it">
-            <h2>Take a video tour</h2>
-            <a href="#" class="video-link" data-toggle="modal" data-target="#video-popup">
-                <i class="ion-ios-play-outline"></i>
-            </a>
-        </div>
-    </div> -->
-    <!-- end video tour -->
-
-    <!--start services-->
-    <section id="services">
-        <div class="space-100"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12 margin-b-50">
-                    <h2 class="center-title">What we do</h2>
-                    <div class="center-border"></div>
-                </div>
-            </div>
-            <!--row end-->
-            <div class="row">
-
-                <div class="col-md-8 ml-auto mr-auto">
-                    <ul class="row list-unstyled services-list">
-                        <li class="col-md-6 clearfix scrollReveal sr-bottom">
-                            <i class="ion-ios-briefcase-outline"></i>
-                            <div class="content">
-                                <h4>Marketing</h4>
-                                <p>
-                                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
-                                </p>
-                            </div>
-                        </li>
-                        <!--service col end with li-->
-                        <li class="col-md-6 clearfix  scrollReveal sr-bottom sr-delay-1">
-                            <i class="ion-images"></i>
-                            <div class="content">
-                                <h4>Web Design</h4>
-                                <p>
-                                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
-                                </p>
-                            </div>
-                        </li>
-                        <!--service col end with li-->
-                        <li class="col-md-6 clearfix scrollReveal sr-bottom sr-delay-2">
-                            <i class="ion-bag"></i>
-                            <div class="content">
-                                <h4>E-commerce</h4>
-                                <p>
-                                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
-                                </p>
-                            </div>
-                        </li>
-                        <!--service col end with li-->
-                        <li class="col-md-6 clearfix scrollReveal sr-bottom sr-delay-3">
-                            <i class="ion-hammer"></i>
-                            <div class="content">
-                                <h4>Web Development</h4>
-                                <p>
-                                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
-                                </p>
-                            </div>
-                        </li>
-                        <!--service col end with li-->
-                        <li class="col-md-6 clearfix scrollReveal sr-bottom sr-delay-4">
-                            <i class="ion-ios-people-outline"></i>
-                            <div class="content">
-                                <h4>Free Support</h4>
-                                <p>
-                                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
-                                </p>
-                            </div>
-                        </li>
-                        <!--service col end with li-->
-                        <li class="col-md-6 clearfix scrollReveal sr-bottom sr-delay-5">
-                            <i class="ion-iphone"></i>
-                            <div class="content">
-                                <h4>App Development</h4>
-                                <p>
-                                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
-                                </p>
-                            </div>
-                        </li>
-                        <!--service col end with li-->
-                    </ul>
-                    <!--service list end-->
-                </div>
-            </div>
-            <!--row end-->
-            <hr>
-            <div class="space-60"></div>
-            <div class="text-center scrollReveal sr-bottom">
-                <h1 class="margin-b-20">Want to work with us</h1>
-                <a data-scroll href="#work" class="btn btn-dark-border btn-lg">Our Portfolio</a>
-            </div>
-        </div>
-    </section>
-    <!--end services-->
-
-    <div class="space-70"></div>
-
-    <!-- Parallax -->
-    <div class="dzsparallaxer auto-init" data-options='{   direction: "reverse"}' style="height: 350px;">
-
-        <div class="divimage dzsparallaxer--target " style="width: 101%; height: 600px; background-image: url(assets/images/bg-3.jpg)">
-        </div>
-        <div class=" parallax-text text-center center-it">
-            <div class="testi-slider">
-                <ul class="slides">
-                    <li>
-                        <i class="ion-quote"></i>
-                        <p>
-                            " Great work done. Very clean design and super easy code help me to launch my site quickly. "
-                        </p>
-                        <h5>John Doe</h5>
-                    </li>
-                    <!--li-->
-                    <li>
-                        <i class="ion-quote"></i>
-                        <p>
-                            " A super clean full pack one page theme. great work. "
-                        </p>
-                        <h5>Emily</h5>
-                    </li>
-                    <!--li-->
-                    <li>
-                        <i class="ion-quote"></i>
-                        <p>
-                            " It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
-                            "
-                        </p>
-                        <h5>Alex</h5>
-                    </li>
-                    <!--li-->
-                </ul>
-            </div>
-        </div>
-        <!--parallax text-->
-    </div>
-    <!-- End Parallax -->
-
-
-    <!--pricing start-->
-    <!-- <section class="pricing-wrapper">
-        <div class="container">
-            <div class="row flex-box">
-                <div class="col-md-4 d-flex align-middle margin-b-30">
-                    <div class="price-box scrollReveal sr-scaleDown sr-ease-in-out-back">
-                        <h3>Starter</h3>
-                        <h1>
-                            <sup>$</sup> 6</h1>
-                        <ul class="list-unstyled">
-                            <li>6 Months Support</li>
-                            <li>2 Demos</li>
-                            <li>Mailchimp Form</li>
-                            <li>Php Contact Form</li>
-                            <li>1 Domain</li>
-                        </ul>
-                        <div class="price-footer">
-                            <a href="#" class="btn btn-lg btn-dark-border">Buy Now</a>
-                        </div>
-                    </div> -->
-    <!--price box-->
-    <!-- </div> -->
-    <!--price col-->
-    <!-- <div class="col-md-4 d-flex  align-middle margin-b-30">
-                    <div class="price-box  scrollReveal sr-scaleDown sr-ease-in-out-back sr-delay-1">
-                        <h3>Business</h3>
-                        <span class="best-label">Best Value</span>
-                        <h1>
-                            <sup>$</sup> 21</h1>
-                        <ul class="list-unstyled">
-                            <li>12 Months Support</li>
-                            <li>10 Demos</li>
-                            <li>Mailchimp Form</li>
-                            <li>Php Contact Form</li>
-                            <li>5 Domain</li>
-                        </ul>
-                        <div class="price-footer">
-                            <a href="#" class="btn btn-lg btn-dark-border">Buy Now</a>
-                        </div>
-                    </div> -->
-    <!--price box-->
-    <!-- </div> -->
-    <!--price col-->
-    <!-- <div class="col-md-4 d-flex  align-middle margin-b-30">
-                    <div class="price-box scrollReveal sr-scaleDown sr-ease-in-out-back sr-delay-2">
-                        <h3>Advanced</h3>
-                        <h1>
-                            <sup>$</sup> 49</h1>
-                        <ul class="list-unstyled">
-                            <li>Unlimited Support</li>
-                            <li>20 Demos</li>
-                            <li>Mailchimp Form</li>
-                            <li>Php Contact Form</li>
-                            <li>Unlimited Domain</li>
-                        </ul>
-                        <div class="price-footer">
-                            <a href="#" class="btn btn-lg btn-dark-border">Buy Now</a>
-                        </div>
-                    </div> -->
-    <!--price box-->
-    <!-- </div> -->
-    <!--price col-->
-    <!-- </div> -->
-
-    <!-- <div class="row scrollReveal sr-bottom sr-delay-2">
-                <div class="col-md-8 mr-auto ml-auto text-center">
-                    <p class="margin-b-30">Get the latest offer from us
-                        <a data-toggle="collapse" href="#newsletter" aria-expanded="false" aria-controls="newsletter">Subscribe</a>
-                    </p>
-                    <div class="collapse" id="newsletter">
-                        <div class="newsletter-form">
-                            <form role="form" method="post" action="#" class="subscribe-form  xone-newsletter">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" name="email" placeholder="Enter email to subscribe">
-                                </div>
-                                <div>
-                                    <button class="btn btn-skin-border btn-lg" name="submit" type="submit">Notify me</button>
-                                </div>
-                            </form>
-
+                <!-- Hero Content -->
+                <div class="home-content">
+                    <div class="home-text">
+                        <h1 class="name hs-line-1 font-alt mb-80 mb-xs-30 mt-sm-0">
+                            Nick Quan
+                        </h1>
+                        <div class="title hs-line-6">
+                            Web Developer
                         </div>
                     </div>
                 </div>
-            </div> -->
-    <!--row-->
-    <!-- </div> -->
-    <!--container-->
-    <!-- </section> -->
-    <!--pricing end-->
+                <!-- End Hero Content -->
 
-    <div class="space-50"></div>
+                <!-- Scroll Down -->
+                <div class="local-scroll">
+                    <a href="#about" class="scroll-down">
+                        <i class="fa fa-angle-down scroll-down-icon"></i>
+                    </a>
+                </div>
+                <!-- End Scroll Down -->
 
-    <!--portfolio start-->
-    <section id="work">
-        <div class="work-header">
-            <div class="container">
-                <h2 class="center-title person-col">Portfolio</h2>
-                <div class="center-border"></div>
-                <p class="text-center margin-b-20">Present your work in beautiful way </p>
             </div>
-        </div>
-        <!--work header-->
-        <!--filter start-->
-        <div class="container">
-            <div id="js-filters-awesome-work" class="cbp-l-filters-work">
-                <div data-filter="*" class="cbp-filter-item-active cbp-filter-item">
-                    SHOW ALL
-                </div>
-                <div data-filter=".identity" class="cbp-filter-item">
-                    IDENTITY
-                    <div class="cbp-filter-counter"></div>
-                </div>
-                <div data-filter=".web-design" class="cbp-filter-item">
-                    WEB DESIGN
-                    <div class="cbp-filter-counter"></div>
-                </div>
-                <div data-filter=".graphic" class="cbp-filter-item">
-                    GRAPHIC
-                    <div class="cbp-filter-counter"></div>
-                </div>
-                <div data-filter=".logos" class="cbp-filter-item">
-                    LOGO
-                    <div class="cbp-filter-counter"></div>
-                </div>
-            </div>
-            <!--filter nav end-->
-
-            <div id="js-grid-awesome-work" class="cbp cbp-l-grid-work">
-                <div class="cbp-item identity">
-                    <a href="assets/ajax-awesome-work/project1.html" class="cbp-caption cbp-singlePage" rel="nofollow">
-                        <div class="cbp-caption-defaultWrap">
-                            <img src="assets/images/w1.jpg" alt="">
-                        </div>
-                        <div class="cbp-caption-activeWrap"></div>
-                    </a>
-                    <a href="assets/ajax-awesome-work/project1.html" class="cbp-l-grid-work-title cbp-singlePage" rel="nofollow">Project Title</a>
-                    <div class="cbp-l-grid-work-desc">Web Design / Graphic</div>
-                </div>
-                <!--work item-->
-                <div class="cbp-item web-design logos">
-                    <a href="assets/ajax-awesome-work/project2.html" class="cbp-caption cbp-singlePage" rel="nofollow">
-                        <div class="cbp-caption-defaultWrap">
-                            <img src="assets/images/w2.jpg" alt="">
-                        </div>
-                        <div class="cbp-caption-activeWrap"></div>
-                    </a>
-                    <a href="assets/ajax-awesome-work/project2.html" class="cbp-l-grid-work-title cbp-singlePage" rel="nofollow">Project Title</a>
-                    <div class="cbp-l-grid-work-desc">Logo / Web Design</div>
-                </div>
-                <!--work item-->
-                <div class="cbp-item graphic logos">
-                    <a href="assets/ajax-awesome-work/project3.html" class="cbp-caption cbp-singlePage" rel="nofollow">
-                        <div class="cbp-caption-defaultWrap">
-                            <img src="assets/images/w3.jpg" alt="">
-                        </div>
-                        <div class="cbp-caption-activeWrap"></div>
-                    </a>
-                    <a href="assets/ajax-awesome-work/project3.html" class="cbp-l-grid-work-title cbp-singlePage" rel="nofollow">Project Title</a>
-                    <div class="cbp-l-grid-work-desc">Graphic / Logo</div>
-                </div>
-                <!--work item-->
-                <div class="cbp-item web-design graphic">
-                    <a href="assets/ajax-awesome-work/project4.html" class="cbp-caption cbp-singlePage" rel="nofollow">
-                        <div class="cbp-caption-defaultWrap">
-                            <img src="assets/images/w4.jpg" alt="">
-                        </div>
-                        <div class="cbp-caption-activeWrap"></div>
-                    </a>
-                    <a href="assets/ajax-awesome-work/project4.html" class="cbp-l-grid-work-title cbp-singlePage" rel="nofollow">Project Title</a>
-                    <div class="cbp-l-grid-work-desc">Web Design / Graphic</div>
-                </div>
-                <!--work item-->
-                <div class="cbp-item identity web-design">
-                    <a href="assets/ajax-awesome-work/project5.html" class="cbp-caption cbp-singlePage" rel="nofollow">
-                        <div class="cbp-caption-defaultWrap">
-                            <img src="assets/images/w5.jpg" alt="">
-                        </div>
-                        <div class="cbp-caption-activeWrap"></div>
-                    </a>
-                    <a href="assets/ajax-awesome-work/project5.html" class="cbp-l-grid-work-title cbp-singlePage" rel="nofollow">Project Title</a>
-                    <div class="cbp-l-grid-work-desc">Web Design / Identity</div>
-                </div>
-                <!--work item-->
-                <div class="cbp-item identity web-design">
-                    <a href="assets/ajax-awesome-work/project6.html" class="cbp-caption cbp-singlePage" rel="nofollow">
-                        <div class="cbp-caption-defaultWrap">
-                            <img src="assets/images/w6.jpg" alt="">
-                        </div>
-                        <div class="cbp-caption-activeWrap"></div>
-                    </a>
-                    <a href="assets/ajax-awesome-work/project6.html" class="cbp-l-grid-work-title cbp-singlePage" rel="nofollow">Project Title</a>
-                    <div class="cbp-l-grid-work-desc">Identity / Web Design</div>
-                </div>
-                <!--work item-->
-            </div>
-            <!--grid end-->
-
-            <div id="js-loadMore-awesome-work" class="cbp-l-loadMore-button">
-                <a href="assets/ajax-awesome-work/loadMore.html" class="cbp-l-loadMore-link" rel="nofollow">
-                    <span class="cbp-l-loadMore-defaultText">LOAD MORE</span>
-                    <span class="cbp-l-loadMore-loadingText">LOADING...</span>
-                    <span class="cbp-l-loadMore-noMoreLoading">NO MORE WORKS</span>
-                </a>
-            </div>
-            <!--work load more-->
-        </div>
-        <!--container end-->
-    </section>
-    <!--portfolio end-->
-    <div class="space-100"></div>
-    <!--partners-->
-    <section class="partners">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-2 col-md-4 col-xs-6 scrollReveal sr-bottom">
-                    <a href="#">
-                        <img src="assets/images/cl-1.png" alt="" class="img-fluid">
-                    </a>
-                </div>
-                <!--partner col-->
-                <div class="col-lg-2 col-md-4 col-xs-6  scrollReveal sr-bottom sr-delay-1">
-                    <a href="#">
-                        <img src="assets/images/cl-2.png" alt="" class="img-fluid">
-                    </a>
-                </div>
-                <!--partner col-->
-                <div class="col-lg-2 col-md-4 col-xs-6  scrollReveal sr-bottom sr-delay-2">
-                    <a href="#">
-                        <img src="assets/images/cl-3.png" alt="" class="img-fluid">
-                    </a>
-                </div>
-                <!--partner col-->
-                <div class="col-lg-2 col-md-4 col-xs-6  scrollReveal sr-bottom sr-delay-3">
-                    <a href="#">
-                        <img src="assets/images/cl-4.png" alt="" class="img-fluid">
-                    </a>
-                </div>
-                <!--partner col-->
-                <div class="col-lg-2 col-md-4 col-xs-6  scrollReveal sr-bottom sr-delay-4">
-                    <a href="#">
-                        <img src="assets/images/cl-1.png" alt="" class="img-fluid">
-                    </a>
-                </div>
-                <!--partner col-->
-                <div class="col-lg-2 col-md-4 col-xs-6  scrollReveal sr-bottom sr-delay-5">
-                    <a href="#">
-                        <img src="assets/images/cl-2.png" alt="" class="img-fluid">
-                    </a>
-                </div>
-                <!--partner col-->
-            </div>
-        </div>
-    </section>
-    <!--end partners-->
-
-    <!--contact start-->
-    <section id="contact" class="contact-section">
-        <div class="space-100"></div>
-        <div class="container">
-            <div class="row margin-b-50">
-                <div class="col-sm-12 scrollReveal sr-bottom">
-                    <h2 class="center-title">Say Hello!</h2>
-                    <div class="center-border"></div>
-                </div>
-            </div>
-            <!--row-->
-            <div class="row">
-                <div class="col-md-5 ml-auto margin-b-30 scrollReveal sr-left">
-                    <form method="post" action="#" class="xone-contact">
-                        <div class="row">
-                            <div class="col-sm-12">
-                                <div class=" margin-b-20">
-                                    <input type="text" name="name" class="form-control" placeholder="Full Name...." />
-                                </div>
-                                <div class=" margin-b-20">
-                                    <input type="text" name="email" class="form-control" placeholder="Email Address...." />
-                                </div>
-                            </div>
-                            <div class="col-sm-12">
-                                <textarea name="message" class="form-control margin-b-20" rows="5" placeholder="Message...."></textarea>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-12 text-center">
-                                <div class="data-status"></div>
-                                <!-- data submit status -->
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-12 text-center">
-                                <button type="submit" name="submit" class="btn btn-lg btn-skin-border btn-block margin-b-20">Send Message</button>
-                            </div>
-                        </div>
-                    </form>
-                    <!--form end-->
-                </div>
-                <!--form col end-->
-                <div class="col-md-5 ml-auto scrollReveal sr-right sr-delay-1">
-                    <div class="contact-details">
-                        <p class="lead">
-                            <br> Irvine, California
-                            <br>909-305-3030</p>
-                        <p class="lead">
-                            <a href="#">nickkquan@gmail.com</a>
-                        </p>
-                        <ul class="list-inline">
-                            <li class="list-inline-item">
-                                <a href="#">
-                                    <i class="ion-social-facebook-outline"></i>
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a href="#">
-                                    <i class="ion-social-twitter-outline"></i>
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a href="#">
-                                    <i class="ion-social-googleplus-outline"></i>
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a href="#">
-                                    <i class="ion-social-instagram-outline"></i>
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a href="#">
-                                    <i class="ion-social-linkedin-outline"></i>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <!--contact detail-->
-                </div>
-                <!--contact detail col end-->
-            </div>
-        </div>
-        <div class="space-40"></div>
-        <!-- Google Map -->
-        <section id="map">
-            <!-- Google Map ID -->
-            <div id="google-map" style="width: 100%; height: 400px;"></div>
         </section>
-        <!-- End Google Map -->
-    </section>
-    <!--contact end-->
+        <!-- End Home Section -->
 
-
-    <!--footer start-->
-    <footer class="footer">
-        <div class="container">
-            <div class="row clearfix">
-                <div class="col-md-5 margin-b-30">
-                    <span>&copy; Copyright 2017. xone by Design_mylife</span>
+        <!-- Navigation panel -->
+        <nav class="main-nav dark transparent stick-fixed">
+            <div class="full-wrapper relative clearfix">
+                <!-- Logo ( * your text or image into link tag *) -->
+                <div class="nav-logo-wrap local-scroll">
+                    <a href="#top" class="logo">
+                        Nick Quan
+                    </a>
                 </div>
-                <!--copyright col-->
-                <div class="col-md-7 text-right">
-                    <ul class="list-inline margin-b-30">
-                        <li class="list-inline-item">
-                            <a href="#">Home</a>
+                <div class="mobile-nav">
+                    <i class="fa fa-bars"></i>
+                </div>
+                <!-- Main Menu -->
+                <div class="inner-nav desktop-nav">
+                    <ul class="clearlist scroll-nav local-scroll">
+                        <li class="active">
+                            <a href="#home">Home</a>
                         </li>
-                        <li class="list-inline-item">
-                            <a href="#">About</a>
+                        <li>
+                            <a href="#about">About</a>
                         </li>
-                        <li class="list-inline-item">
-                            <a href="#">News</a>
+                        <li>
+                            <a href="#applications">Applications</a>
                         </li>
-                        <li class="list-inline-item">
-                            <a href="#">FAQ</a>
+                        <li>
+                            <a href="#skills">Skills</a>
                         </li>
-                        <li class="list-inline-item">
-                            <a href="#">Terms & Conditions</a>
+                        <li>
+                            <a href="#contact">Contact</a>
+                        </li>
+                        <li>
+                            <a href="images/nick_quan_resume.pdf" target="_blank">Resume</a>
                         </li>
                     </ul>
                 </div>
-                <!--footer nav col-->
             </div>
-            <!--row-->
-        </div>
-        <!--container-->
-    </footer>
-    <!--footer end-->
+        </nav>
+        <!-- End Navigation panel -->
+        <!-- About Section -->
+        <section class="page-section" id="about">
+            <div class="container relative">
 
-    <!--modal of video-->
-    <!-- <div class="modal video-modal fade" id="video-popup" tabindex="-1" role="dialog" aria-labelledby="video-popup">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true" class="ion-ios-close-outline"></span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe id="vimeo-video" src="http://player.vimeo.com/video/65474872"></iframe>
+                <div class="section-text mb-50 mb-sm-20">
+                    <div class="row">
+                        <!-- Team item -->
+                        <div class="col-md-4 aboutNick">
+                            <h2 class="aboutSection section-title font-alt mb-70 mb-sm-40">
+                                About Nick
+                            </h2>
+                            <blockquote>
+                                <p class="align-left about-me-blurb">
+                                    Web Developer bringing passion, hardwork, and enthusiasm to every project.
+                                </p>
+                            </blockquote>
+                        </div>
+                        <div class="col-sm-4 mb-xs-30 wow fadeInUp" data-wow-delay="0.2s">
+                            <div class="team-item">
+
+                                <div class="team-item-image">
+
+                                    <img src="images/nick.jpg" alt="" />
+
+                                    <div class="team-item-detail">
+
+                                        <h4 class="font-alt normal">Nick Quan</h4>
+
+                                        <div class="team-social-links">
+                                            <a href="https://www.linkedin.com/in/nick-quan/" target="_blank">
+                                                <i class="fa fa-linkedin"></i>
+                                            </a>
+                                            <a href="https://github.com/nickkquan" target="_blank">
+                                                <i class="fa fa-github"></i>
+                                            </a>
+                                            <a href="images/nick_quan_resume.pdf" target="_blank">
+                                                <i class="fa fa-file-text">Resume</i>
+                                            </a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class=" aboutMe col-md-4 col-sm-6 mb-sm-50 mb-xs-30 align-left">
+                            I grew up building elaborate Lego sets from my own imagination. I loved being able to create planes, boats, or anything else
+                            I could come up with.
+                            <br> When I discovered my love for programming that feeling of creativity and joy was very reminiscent
+                            of when I was a kid. The ability to then create applications from my own ideas was exhilarating.
+                            Ever since then, I dove into any opportunity I could to learn and build projects, whether in
+                            groups or individually.
+                            <br>
+                            <br> When I am not programming, I enjoy spending time with my French Bulldog, Crouton, traveling
+                            and exploring cultures through the experience of local food cuisine. My dream destination would
+                            be Japan to see the temples, castles, and indulge in sushi and ramen.
+                            <br>
+                            <br> I look forward to bringing enthusiasm and my thirst for knowledge to my next project. Please
+                            call or email me to discuss how we can work together. I would love to hear from you!
+                        </div>
+                        <!-- End Team item -->
+
                     </div>
-                </div> -->
-    <!--modal body-->
-    <!-- </div> -->
-    <!--modal content-->
-    <!-- </div> -->
-    <!--modal dialog-->
-    <!-- </div> -->
-    <!--end the modal of video-->
+                </div>
+                <div class="row">
+                </div>
 
-    <!--back to top-->
-    <a href="#" class="scrollToTop">
-        <i class="ion-android-arrow-dropup-circle"></i>
-    </a>
-    <!--back to top end-->
+            </div>
+        </section>
+        <!-- End About Section -->
 
-    <!-- jQuery plugins-->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/bootstrap/popper.min.js"></script>
-    <script src="assets/js/jquery-migrate.min.js"></script>
-    <script src="assets/js/jquery.easing.min.js"></script>
-    <script src="assets/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="assets/bower_components/flexslider/jquery.flexslider-min.js"></script>
-    <script src="assets/js/modernizr.custom.97074.js" type="text/javascript"></script>
-    <script src="assets/js/jquery.sticky.js"></script>
-    <script src="assets/bower_components/scrollreveal/dist/scrollreveal.min.js"></script>
-    <script src="assets/dzsparallaxer/dzsparallaxer.js" type="text/javascript"></script>
-    <script src="assets/js/smooth-scroll.min.js"></script>
-    <script src="assets/js/jquery.preloader.min.js"></script>
-    <script src="assets/js/template-custom.js" type="text/javascript"></script>
-    <script src="assets/cubeportfolio/js/jquery.cubeportfolio.min.js"></script>
-    <script src="assets/js/cube-awesome-work.js" type="text/javascript"></script>
-    <script src="assets/js/scroll-reavel-custom.js"></script>
-    <!-- Google Map Script -->
-    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
-    <script src="assets/js/google-map.js"></script>
-    <script src="assets/js/contact.js" type="text/javascript"></script>
+        <!-- Divider -->
+        <hr class="mt-0 mb-0 " />
+        <!-- End Divider -->
+
+        <!-- Portfolio Section -->
+        <section class="page-section" id="applications">
+            <div class="relative">
+
+                <h2 class="section-title font-alt mb-70 mb-sm-40">
+                    Applications Developed
+                </h2>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2">
+
+                            <div class="section-text align-center mb-70 mb-xs-40">
+                                I've had the opportunity to work on a number of great projects. Here are a few of them!
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Works Grid -->
+                <ul class="works-grid work-grid-3 work-grid-gut clearfix font-alt hover-white hide-titles" id="work-grid">
+                    <!-- Work Item (Lightbox) -->
+                    <li class="work-item mix photography">
+                        <h2 class="work-title">Close Your Tabs</h2>
+                        <div class="work-descr portfolioDescr">
+                            Dedicated to managing and displaying tab activity. Using React, JavaScript, Chrome Extension API, and our own database, we
+                            dynamically display tab information in an effort to get the user to close inactive tabs.
+                            <br>
+                            <br>
+                            <a href="http://closeyourtabs.com" target="_blank" class="fa fa-desktop portfolioLogo"> Live</a> &nbsp
+                            <a href="https://github.com/m13kelore/c12.17_tabcleaner" target="_blank" class="fa fa-github portfolioLogo"> GitHub</a>
+                        </div>
+                        <div class="mfp-image">
+                            <div class="work-img">
+                                <img src="images/portfolio/closeyourtabs.png" alt="Work" />
+                            </div>
+                            <div class="work-intro removeOpacity">
+                                <div class="work-descr">
+                                    <ul class="work-descr portfolioUl">
+                                        <li class='portfolioLi'>JavaScript</li>
+                                        <li class='portfolioLi'>React.js</li>
+                                        <li class='portfolioLi'>HTML</li>
+                                        <li class='portfolioLi'>CSS</li>
+                                        <li class='portfolioLi'>Flexbox</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- End Work Item -->
+                    <!-- Work Item (Lightbox) -->
+                    <li class="work-item mix photography">
+                        <h2 class="work-title">Beets&Eats</h2>
+                        <div class="work-descr portfolioDescr">
+                            Hackathon application built to help plan a night out -- suggesting bars and restaurants around venues by utilizing Javascript,
+                            Bootstrap, and Google Maps to create a visual map from Ticketmaster and Yelp API Ajax calls.
+                            <br>
+                            <br>
+                            <a href="http://beetsandeats.nickquan.com" target="_blank" class="fa fa-desktop portfolioLogo"> Live</a> &nbsp
+                            <a href="https://github.com/nickkquan/c12.17Hackathon2" target="_blank" class="fa fa-github portfolioLogo"> GitHub</a>
+                        </div>
+                        <div class="mfp-image">
+                            <div class="work-img">
+                                <img src="images/portfolio/construction.png" alt="Work" />
+                            </div>
+                            <div class="work-intro removeOpacity">
+                                <div class="work-descr">
+                                    <ul class="work-descr portfolioUl">
+                                        <li class='portfolioLi'>JavaScript</li>
+                                        <li class='portfolioLi'>Bootstrap</li>
+                                        <li class='portfolioLi'>HTML</li>
+                                        <li class='portfolioLi'>CSS</li>
+                                        <li class='portfolioLi'>Google Maps</li>
+                                        <li class='portfolioLi'>TicketMaster API</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- End Work Item -->
+                    <!-- Work Item (Lightbox) -->
+                    <li class="work-item mix photography">
+                        <h2 class="work-title">Student Grade Table</h2>
+                        <div class="work-descr portfolioDescr">
+                            Student grade table that utilizes Ajax calls to a database.
+                            <br>
+                            <br>
+                            <a href="http://nickquan.com/memorymatch" target="_blank" class="fa fa-desktop portfolioLogo"> Live</a> &nbsp
+                            <a href="https://github.com/nickkquan/memory_match" target="_blank" class="fa fa-github portfolioLogo"> GitHub</a>
+                        </div>
+                        <div class="mfp-image">
+                            <div class="work-img">
+                                <img src="images/portfolio/construction.png" alt="Work" />
+                            </div>
+                            <div class="work-intro removeOpacity">
+                                <div class="work-descr">
+                                    <ul class="work-descr portfolioUl">
+                                        <li class='portfolioLi'>JavaScript</li>
+                                        <li class='portfolioLi'>Bootstrap</li>
+                                        <li class='portfolioLi'>CSS</li>
+                                        <li class='portfolioLi'>HTML</li>
+                                        <li class='portfolioLi'>Node.js</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- End Work Item -->
+                </ul>
+                <!-- End Works Grid -->
+            </div>
+        </section>
+        <!-- Divider -->
+        <hr class="mt-0 mb-0 " />
+        <!-- End Divider -->
+        <!-- Skills Section -->
+        <section class="page-section" id="skills">
+            <div class="container relative">
+                <h2 class="section-title font-alt mb-70 mb-sm-40">
+                    Skills
+                </h2>
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs tpl-alt-tabs font-alt pt-30 pt-sm-0 pb-30 pb-sm-0">
+                    <li>
+                        <a class='skillNotActive' data-toggle="tab">
+                            <div class="alt-tabs-icon">
+                                <svg class="service-icons" viewBox="0 0 128 128">
+                                    <path fill="#F0DB4F" d="M1.408 1.408h125.184v125.185h-125.184z"></path>
+                                    <path fill="#323330" d="M116.347 96.736c-.917-5.711-4.641-10.508-15.672-14.981-3.832-1.761-8.104-3.022-9.377-5.926-.452-1.69-.512-2.642-.226-3.665.821-3.32 4.784-4.355 7.925-3.403 2.023.678 3.938 2.237 5.093 4.724 5.402-3.498 5.391-3.475 9.163-5.879-1.381-2.141-2.118-3.129-3.022-4.045-3.249-3.629-7.676-5.498-14.756-5.355l-3.688.477c-3.534.893-6.902 2.748-8.877 5.235-5.926 6.724-4.236 18.492 2.975 23.335 7.104 5.332 17.54 6.545 18.873 11.531 1.297 6.104-4.486 8.08-10.234 7.378-4.236-.881-6.592-3.034-9.139-6.949-4.688 2.713-4.688 2.713-9.508 5.485 1.143 2.499 2.344 3.63 4.26 5.795 9.068 9.198 31.76 8.746 35.83-5.176.165-.478 1.261-3.666.38-8.581zm-46.885-37.793h-11.709l-.048 30.272c0 6.438.333 12.34-.714 14.149-1.713 3.558-6.152 3.117-8.175 2.427-2.059-1.012-3.106-2.451-4.319-4.485-.333-.584-.583-1.036-.667-1.071l-9.52 5.83c1.583 3.249 3.915 6.069 6.902 7.901 4.462 2.678 10.459 3.499 16.731 2.059 4.082-1.189 7.604-3.652 9.448-7.401 2.666-4.915 2.094-10.864 2.07-17.444.06-10.735.001-21.468.001-32.237z"></path>
+                                </svg>
+                            </div>
+                            Javascript
+                        </a>
+                    </li>
+                    <li>
+                        <a class='skillNotActive' data-toggle="tab">
+                            <div class="alt-tabs-icon">
+                                <svg class="service-icons" viewBox="0 0 128 128">
+                                    <path fill="#0868AC" d="M9.625 32.181c-11.029 15.851-9.656 36.476-1.231 53.32.2.404.41.801.617 1.198l.394.759.246.437.439.786c.262.461.53.92.804 1.379l.459.756c.304.491.615.976.933 1.46l.398.614c.439.655.888 1.309 1.352 1.951l.039.05.228.308c.401.553.814 1.099 1.232 1.639l.464.59c.373.469.752.935 1.138 1.399l.435.52c.518.61 1.047 1.217 1.586 1.812l.033.033.061.068c.527.575 1.066 1.137 1.612 1.699l.517.521c.423.426.853.845 1.287 1.262l.527.5c.58.547 1.166 1.083 1.764 1.607l.028.022.307.262c.527.456 1.063.909 1.603 1.353l.664.529c.441.354.887.702 1.336 1.044l.714.543c.496.365.995.724 1.499 1.075l.546.387.15.107c.478.329.967.646 1.456.963l.63.42c.75.474 1.51.943 2.279 1.396l.63.355c.565.326 1.134.646 1.71.959.312.168.632.327.946.488.407.213.811.429 1.225.636l.283.137.501.242c.641.306 1.287.607 1.94.897l.41.184c.748.327 1.502.641 2.263.941l.551.217c.704.271 1.418.539 2.135.791l.268.093c.787.275 1.581.53 2.381.779l.575.172c.814.245 1.619.538 2.458.693 53.339 9.727 68.833-32.053 68.833-32.053-13.013 16.953-36.111 21.425-57.996 16.446-.829-.187-1.633-.446-2.442-.685l-.609-.185c-.79-.242-1.573-.497-2.352-.765l-.323-.117c-.698-.245-1.387-.504-2.074-.769l-.582-.229c-.752-.297-1.5-.607-2.239-.931l-.447-.198c-.635-.288-1.263-.578-1.889-.879l-.546-.262c-.491-.239-.977-.493-1.461-.743-.324-.171-.654-.332-.975-.51-.592-.317-1.172-.646-1.751-.982l-.591-.33c-.769-.452-1.528-.921-2.28-1.397l-.615-.41c-.545-.351-1.088-.709-1.623-1.079l-.522-.367c-.516-.365-1.027-.734-1.534-1.109l-.679-.514c-.465-.355-.927-.713-1.384-1.082l-.617-.495c-.582-.479-1.156-.959-1.724-1.453l-.189-.159c-.614-.539-1.216-1.092-1.812-1.647l-.511-.491c-.441-.42-.875-.843-1.302-1.277l-.51-.509c-.543-.556-1.076-1.119-1.598-1.69l-.079-.084c-.552-.604-1.092-1.221-1.621-1.844l-.424-.504c-.394-.475-.785-.956-1.167-1.442l-.427-.532c-.459-.596-.908-1.189-1.347-1.794-12.15-16.574-16.516-39.432-6.805-58.204M43.862 18.825c-7.977 11.478-7.543 26.844-1.321 38.983 1.043 2.035 2.216 4.01 3.528 5.889 1.195 1.713 2.52 3.751 4.106 5.127.575.633 1.176 1.251 1.79 1.858l.472.465c.596.578 1.201 1.146 1.828 1.698l.074.064.018.018c.693.608 1.408 1.191 2.135 1.767l.485.378c.729.559 1.472 1.107 2.233 1.631l.065.049c.336.232.678.448 1.019.672l.483.319c.544.349 1.095.689 1.655 1.015l.235.136c.483.278.972.552 1.463.818l.521.271c.339.177.678.358 1.023.53l.155.07c.703.346 1.412.68 2.136.995l.472.194c.579.246 1.164.486 1.75.71l.75.275c.533.198 1.068.378 1.607.559l.727.233c.767.238 1.525.539 2.324.672 41.183 6.823 50.691-24.886 50.691-24.886-8.57 12.343-25.168 18.233-42.879 13.635-.787-.207-1.562-.431-2.333-.674l-.701-.227c-.548-.177-1.092-.365-1.631-.562l-.736-.274c-.592-.228-1.176-.462-1.756-.708l-.473-.2c-.727-.316-1.443-.65-2.148-.999-.363-.177-.72-.364-1.078-.548l-.622-.32c-.458-.248-.914-.506-1.363-.77l-.326-.185c-.558-.325-1.107-.661-1.651-1.008l-.498-.332c-.359-.232-.717-.469-1.069-.707-.759-.524-1.498-1.072-2.226-1.628l-.501-.395c-7.752-6.12-13.898-14.486-16.819-23.971-3.062-9.836-2.402-20.878 2.903-29.84M72.657 8.847c-4.702 6.92-5.164 15.514-1.901 23.156 3.441 8.113 10.491 14.476 18.72 17.495.339.125.679.237 1.022.354l.451.143c.485.152.966.329 1.467.424 22.74 4.394 28.908-11.669 30.549-14.034-5.402 7.779-14.482 9.646-25.623 6.942-.88-.213-1.847-.531-2.695-.832-1.088-.388-2.16-.83-3.201-1.329-1.978-.951-3.864-2.104-5.612-3.424-9.969-7.565-16.162-21.994-9.657-33.745"></path>
+                                </svg>
+                            </div>
+                            jQuery
+                        </a>
+                    </li>
+                    <li>
+                        <a class='skillNotActive' data-toggle="tab">
+                            <div class="alt-tabs-icon">
+                                <svg class="service-icons" width="256px" height="256px" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid">
+                                    <g>
+                                        <rect fill="#F26522" x="0" y="0" width="256" height="256"></rect>
+                                        <path d="M105.536115,159.958938 L144.693011,159.958938 L144.693011,149.305958 L117.628686,149.305958 L117.628686,132.798639 L142.58161,132.798639 L142.58161,122.14566 L117.628686,122.14566 L117.628686,106.694042 L144.693011,106.694042 L144.693011,96.041063 L105.536115,96.041063 L105.536115,159.958938 L105.536115,159.958938 Z M196.998179,142.587864 C196.998179,129.823483 196.134424,127.040272 178.955295,122.913443 C167.918425,120.226205 167.72648,120.034259 167.72648,112.740327 C167.72648,107.173906 169.166071,105.446396 177.323758,105.446396 C182.89018,105.446396 189.128411,106.214178 194.406914,107.365852 L195.750532,97.1927363 C189.416329,95.7531445 182.698234,95.0813351 177.131813,95.0813351 C160.912412,95.0813351 155.633909,100.839702 155.633909,112.452409 C155.633909,125.984572 157.74531,128.959728 173.196928,132.414748 C184.713662,134.910041 184.905608,135.485878 184.905608,142.587864 C184.905608,148.730122 183.466016,150.553605 174.732493,150.553605 C168.398289,150.553605 162.639922,149.401932 156.689609,147.578448 L154.578208,157.079753 C158.801011,159.095183 167.246615,160.918665 174.540547,160.918665 C193.447186,160.918665 196.998179,154.680435 196.998179,142.587864 L196.998179,142.587864 L196.998179,142.587864 Z M219.263865,118.786613 C219.263865,108.997389 223.966531,107.077933 235.29132,107.077933 C237.306748,107.077933 241.52955,107.365852 244.312761,107.941688 L245.080544,98.1524641 C242.20136,97.4806547 237.594667,97.0007908 234.043674,97.0007908 C216.576627,97.0007908 207.555185,102.375267 207.555185,119.266477 L207.555185,142.587864 C207.555185,153.624734 210.81826,160.918665 227.325579,160.918665 C242.393306,160.918665 247,153.432789 247,143.451618 L247,138.844925 C247,127.808055 242.297333,123.009415 230.684626,123.009415 C226.557797,123.009415 222.622912,123.585252 219.263865,124.736926 L219.263865,118.786613 L219.263865,118.786613 Z M228.861143,133.086558 C233.083946,133.086558 235.29132,134.526149 235.29132,139.132844 L235.29132,143.83551 C235.29132,148.730122 233.371865,150.841523 227.325579,150.841523 C221.279294,150.841523 219.263865,149.114013 219.263865,143.83551 L219.263865,135.101987 C221.951102,133.950313 225.406123,133.086558 228.861143,133.086558 L228.861143,133.086558 L228.861143,133.086558 Z"
+                                            fill="#FFFFFF"></path>
+                                    </g>
+                                </svg>
+                            </div>
+                            ES6
+                        </a>
+                    </li>
+                    <li>
+                        <a class='skillNotActive' data-toggle="tab">
+                            <div class="alt-tabs-icon">
+                                <svg class="service-icons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" enable-background="new 0 0 128 128">
+                                    <g fill="#61DAFB">
+                                        <circle cx="64" cy="64" r="11.4" />
+                                        <path d="M107.3 45.2c-2.2-.8-4.5-1.6-6.9-2.3.6-2.4 1.1-4.8 1.5-7.1 2.1-13.2-.2-22.5-6.6-26.1-1.9-1.1-4-1.6-6.4-1.6-7 0-15.9 5.2-24.9 13.9-9-8.7-17.9-13.9-24.9-13.9-2.4 0-4.5.5-6.4 1.6-6.4 3.7-8.7 13-6.6 26.1.4 2.3.9 4.7 1.5 7.1-2.4.7-4.7 1.4-6.9 2.3-12.5 4.8-19.3 11.4-19.3 18.8s6.9 14 19.3 18.8c2.2.8 4.5 1.6 6.9 2.3-.6 2.4-1.1 4.8-1.5 7.1-2.1 13.2.2 22.5 6.6 26.1 1.9 1.1 4 1.6 6.4 1.6 7.1 0 16-5.2 24.9-13.9 9 8.7 17.9 13.9 24.9 13.9 2.4 0 4.5-.5 6.4-1.6 6.4-3.7 8.7-13 6.6-26.1-.4-2.3-.9-4.7-1.5-7.1 2.4-.7 4.7-1.4 6.9-2.3 12.5-4.8 19.3-11.4 19.3-18.8s-6.8-14-19.3-18.8zm-14.8-30.5c4.1 2.4 5.5 9.8 3.8 20.3-.3 2.1-.8 4.3-1.4 6.6-5.2-1.2-10.7-2-16.5-2.5-3.4-4.8-6.9-9.1-10.4-13 7.4-7.3 14.9-12.3 21-12.3 1.3 0 2.5.3 3.5.9zm-11.2 59.3c-1.8 3.2-3.9 6.4-6.1 9.6-3.7.3-7.4.4-11.2.4-3.9 0-7.6-.1-11.2-.4-2.2-3.2-4.2-6.4-6-9.6-1.9-3.3-3.7-6.7-5.3-10 1.6-3.3 3.4-6.7 5.3-10 1.8-3.2 3.9-6.4 6.1-9.6 3.7-.3 7.4-.4 11.2-.4 3.9 0 7.6.1 11.2.4 2.2 3.2 4.2 6.4 6 9.6 1.9 3.3 3.7 6.7 5.3 10-1.7 3.3-3.4 6.6-5.3 10zm8.3-3.3c1.5 3.5 2.7 6.9 3.8 10.3-3.4.8-7 1.4-10.8 1.9 1.2-1.9 2.5-3.9 3.6-6 1.2-2.1 2.3-4.2 3.4-6.2zm-25.6 27.1c-2.4-2.6-4.7-5.4-6.9-8.3 2.3.1 4.6.2 6.9.2 2.3 0 4.6-.1 6.9-.2-2.2 2.9-4.5 5.7-6.9 8.3zm-18.6-15c-3.8-.5-7.4-1.1-10.8-1.9 1.1-3.3 2.3-6.8 3.8-10.3 1.1 2 2.2 4.1 3.4 6.1 1.2 2.2 2.4 4.1 3.6 6.1zm-7-25.5c-1.5-3.5-2.7-6.9-3.8-10.3 3.4-.8 7-1.4 10.8-1.9-1.2 1.9-2.5 3.9-3.6 6-1.2 2.1-2.3 4.2-3.4 6.2zm25.6-27.1c2.4 2.6 4.7 5.4 6.9 8.3-2.3-.1-4.6-.2-6.9-.2-2.3 0-4.6.1-6.9.2 2.2-2.9 4.5-5.7 6.9-8.3zm22.2 21l-3.6-6c3.8.5 7.4 1.1 10.8 1.9-1.1 3.3-2.3 6.8-3.8 10.3-1.1-2.1-2.2-4.2-3.4-6.2zm-54.5-16.2c-1.7-10.5-.3-17.9 3.8-20.3 1-.6 2.2-.9 3.5-.9 6 0 13.5 4.9 21 12.3-3.5 3.8-7 8.2-10.4 13-5.8.5-11.3 1.4-16.5 2.5-.6-2.3-1-4.5-1.4-6.6zm-24.7 29c0-4.7 5.7-9.7 15.7-13.4 2-.8 4.2-1.5 6.4-2.1 1.6 5 3.6 10.3 6 15.6-2.4 5.3-4.5 10.5-6 15.5-13.8-4-22.1-10-22.1-15.6zm28.5 49.3c-4.1-2.4-5.5-9.8-3.8-20.3.3-2.1.8-4.3 1.4-6.6 5.2 1.2 10.7 2 16.5 2.5 3.4 4.8 6.9 9.1 10.4 13-7.4 7.3-14.9 12.3-21 12.3-1.3 0-2.5-.3-3.5-.9zm60.8-20.3c1.7 10.5.3 17.9-3.8 20.3-1 .6-2.2.9-3.5.9-6 0-13.5-4.9-21-12.3 3.5-3.8 7-8.2 10.4-13 5.8-.5 11.3-1.4 16.5-2.5.6 2.3 1 4.5 1.4 6.6zm9-15.6c-2 .8-4.2 1.5-6.4 2.1-1.6-5-3.6-10.3-6-15.6 2.4-5.3 4.5-10.5 6-15.5 13.8 4 22.1 10 22.1 15.6 0 4.7-5.8 9.7-15.7 13.4z"
+                                        />
+                                    </g>
+                                </svg>
+                            </div>
+                            React.js
+                        </a>
+                    </li>
+                    <li>
+                        <a class='skillNotActive' data-toggle="tab">
+                            <div class="alt-tabs-icon">
+                                <svg class="service-icons-redux" viewBox="0 0 256 244" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    preserveAspectRatio="xMidYMid">
+                                    <g>
+                                        <path d="M177.380953,169.732752 C186.828305,168.755405 193.995262,160.610839 193.669491,150.83736 C193.34372,141.063881 185.199451,133.245097 175.426328,133.245097 L174.774787,133.245097 C164.675893,133.57088 156.857395,142.041229 157.183166,152.14049 C157.508937,157.02723 159.463561,161.262404 162.395498,164.194448 C151.319292,186.021884 134.379213,201.985233 108.969093,215.342321 C91.7032429,224.464235 73.7858511,227.722061 55.8684592,225.441583 C41.208775,223.486887 29.8067984,216.971234 22.6398417,206.220408 C12.2151773,190.257058 11.237865,172.990579 20.0336756,155.724099 C26.22332,143.344359 35.9964428,134.222445 42.1860873,129.661488 C40.8830043,125.426314 38.9283797,118.259096 37.9510674,113.046574 C-9.28569288,147.253751 -4.39913147,193.514885 9.934782,215.342321 C20.6852171,231.631453 42.5118581,241.730715 66.6188943,241.730715 C73.1343096,241.730715 79.6497248,241.079149 86.16514,239.450236 C127.863797,231.30567 159.463561,206.54619 177.380953,169.732752 Z M234.716607,129.335706 C209.958029,100.341051 173.471704,84.3777023 131.773046,84.3777023 L126.560714,84.3777023 C123.628777,78.5136149 117.439133,74.6042233 110.597947,74.6042233 L109.946406,74.6042233 C99.8475119,74.9300059 92.0290137,83.4003544 92.3547844,93.499616 C92.6805552,103.273095 100.824824,111.091878 110.597947,111.091878 L111.249489,111.091878 C118.416445,110.766096 124.60609,106.205139 127.212256,100.015269 L133.07613,100.015269 C157.834707,100.015269 181.290202,107.182487 202.465302,121.19114 C218.75384,131.941967 230.481587,145.95062 236.997002,162.891317 C242.535105,176.574188 242.209334,189.931276 236.345461,201.333668 C227.223879,218.600148 211.912654,228.047844 191.714866,228.047844 C178.684036,228.047844 166.304747,224.138452 159.789332,221.206409 C156.205854,224.464235 149.690438,229.676757 145.129648,232.934584 C159.13779,239.450236 173.471704,243.033845 187.154076,243.033845 C218.428069,243.033845 241.557793,225.767366 250.353603,208.500886 C259.800955,189.605493 259.149414,157.02723 234.716607,129.335706 Z M69.2250604,175.271057 C69.5508312,185.044536 77.6951002,192.86332 87.468223,192.86332 L88.1197645,192.86332 C98.2186581,192.537537 106.037156,184.067188 105.711386,173.967927 C105.385615,164.194448 97.2413458,156.375664 87.468223,156.375664 L86.8166815,156.375664 C86.16514,156.375664 85.1878277,156.375664 84.5362862,156.701447 C71.179685,134.548228 65.6415821,110.440313 67.5962066,84.3777023 C68.8992897,64.8307442 75.4147049,47.8900472 86.8166815,33.881394 C96.2640336,21.8274365 114.507196,15.9633491 126.886485,15.6375664 C161.418186,14.9860012 176.07787,57.9893089 177.055182,75.2557885 C181.290202,76.2331364 188.457159,78.5136149 193.34372,80.142528 C189.434471,27.3657413 156.857395,0 125.583402,0 C96.2640336,0 69.2250604,21.1758712 58.4746253,52.4510041 C43.4891703,94.1511813 53.2622932,134.222445 71.5054558,165.823361 C69.876602,168.103839 68.8992897,171.687448 69.2250604,175.271057 Z"
+                                            fill="#764ABC"></path>
+                                    </g>
+                                </svg>
+                            </div>
+                            Redux
+                        </a>
+                    </li>
+                    <li>
+                        <a class='skillNotActive' data-toggle="tab">
+                            <div class="alt-tabs-icon">
+                                <svg class="service-icons" viewBox="0 0 128 128">
+                                    <path fill="#E44D26" d="M19.037 113.876l-10.005-112.215h109.936l-10.016 112.198-45.019 12.48z"></path>
+                                    <path fill="#F16529" d="M64 116.8l36.378-10.086 8.559-95.878h-44.937z"></path>
+                                    <path fill="#EBEBEB" d="M64 52.455h-18.212l-1.258-14.094h19.47v-13.762h-34.511l.33 3.692 3.382 37.927h30.799zM64 88.198l-.061.017-15.327-4.14-.979-10.975h-13.817l1.928 21.609 28.193 7.826.063-.017z"></path>
+                                    <path fill="#fff" d="M63.952 52.455v13.763h16.947l-1.597 17.849-15.35 4.143v14.319l28.215-7.82.207-2.325 3.234-36.233.335-3.696h-3.708zM63.952 24.599v13.762h33.244l.276-3.092.628-6.978.329-3.692z"></path>
+                                </svg>
+                            </div>
+                            HTML 5
+                        </a>
+                    </li>
+                    <li>
+                        <a class='skillNotActive' data-toggle="tab">
+                            <div class="alt-tabs-icon">
+                                <svg class="service-icons" viewBox="0 0 128 128">
+                                    <path fill="#1572B6" d="M18.814 114.123l-10.054-112.771h110.48l-10.064 112.754-45.243 12.543-45.119-12.526z"></path>
+                                    <path fill="#33A9DC" d="M64.001 117.062l36.559-10.136 8.601-96.354h-45.16v106.49z"></path>
+                                    <path fill="#fff" d="M64.001 51.429h18.302l1.264-14.163h-19.566v-13.831h34.681999999999995l-.332 3.711-3.4 38.114h-30.95v-13.831z"></path>
+                                    <path fill="#EBEBEB" d="M64.083 87.349l-.061.018-15.403-4.159-.985-11.031h-13.882l1.937 21.717 28.331 7.863.063-.018v-14.39z"></path>
+                                    <path fill="#fff" d="M81.127 64.675l-1.666 18.522-15.426 4.164v14.39l28.354-7.858.208-2.337 2.406-26.881h-13.876z"></path>
+                                    <path fill="#EBEBEB" d="M64.048 23.435v13.831000000000001h-33.407999999999994l-.277-3.108-.63-7.012-.331-3.711h34.646zM64.001 51.431v13.831000000000001h-15.209l-.277-3.108-.631-7.012-.33-3.711h16.447z"></path>
+                                </svg>
+                            </div>
+                            CSS 3
+                        </a>
+                    </li>
+                    <li>
+                        <a class='skillNotActive' data-toggle="tab">
+                            <div class="alt-tabs-icon">
+                                <svg class="service-icons" viewBox="0 0 128 128">
+                                    <path fill="#5B4282" d="M75.701 65.603c-2.334-.768-5.694-.603-10.08-.603h-17.621v23h18.844c2.944 0 5.012-.315 6.203-.535 2.099-.376 3.854-1.104 5.264-1.982 1.409-.876 2.568-2.205 3.478-3.881.908-1.676 1.363-3.637 1.363-5.83 0-2.568-.658-4.54-1.975-6.436-1.316-1.896-3.141-2.965-5.476-3.733zM73.282 55.087c2.317-.688 4.064-1.89 5.239-3.487 1.176-1.598 1.763-3.631 1.763-6.044 0-2.286-.549-4.314-1.646-6.054s-2.662-2.413-4.699-3.056c-2.037-.641-5.53-.446-10.48-.446h-15.459v20h16.587c4.042 0 6.939-.38 8.695-.913zM126 18.625c0-9.182-7.443-16.625-16.625-16.625h-91.75c-9.182 0-16.625 7.443-16.625 16.625v91.75c0 9.182 7.443 16.625 16.625 16.625h91.75c9.182 0 16.625-7.443 16.625-16.625v-91.75zm-35.447 66.12c-1.362 2.773-3.047 4.911-5.052 6.415-2.006 1.504-4.521 2.78-7.544 3.548-3.022.769-6.728 1.292-11.113 1.292h-27.844v-69h27.42c5.264 0 9.485.609 12.665 2.002 3.181 1.395 5.671 3.497 7.474 6.395 1.801 2.898 2.702 5.907 2.702 9.071 0 2.945-.8 5.708-2.397 8.308-1.598 2.602-4.011 4.694-7.237 6.292 4.166 1.222 7.37 3.304 9.61 6.248 2.24 2.945 3.36 6.422 3.36 10.432 0 3.227-.681 6.225-2.044 8.997z"></path>
+                                </svg>
+                            </div>
+                            Bootstrap
+                        </a>
+                    </li>
+                    <li>
+                        <a class='skillNotActive' data-toggle="tab">
+                            <div class="alt-tabs-icon">
+                                <svg class="service-icons" width="256px" height="256px" viewBox="0 0 256 131" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid">
+                                    <g>
+                                        <g stroke-width="0.09375">
+                                            <path d="M63.1816647,4.19975875 C64.108082,2.62484922 65.3124246,1.11170084 67.041737,0.370566948 C67.7519903,0.247044632 68.4622437,0.30880579 69.172497,0.30880579 L104.129312,0.30880579 C103.110253,1.173462 102.122075,2.06899879 101.442702,3.2424608 C99.6516285,6.1761158 98.4472859,9.44945718 97.335585,12.7227986 C94.185766,22.6045838 91.9932449,32.7642943 89.8624849,42.9240048 C88.905187,47.5252111 87.9787696,52.1572979 87.1141134,56.7585042 C84.4583836,71.8282268 81.7100121,86.8670688 78.2822678,101.782388 C76.6455971,108.668758 74.9780458,115.555127 72.4458384,122.194451 C71.2723764,124.942823 70.1297949,127.876478 67.8755127,129.914596 C67.3505428,130.377805 66.825573,130.964536 66.0844391,130.871894 L35.2038601,130.871894 C33.1039807,130.810133 31.0349819,130.995416 28.9351025,130.779252 C30.3247286,129.698432 31.5599517,128.401448 32.3628468,126.857419 C34.6788902,122.441496 36.1302774,117.655006 37.5199035,112.899397 C39.681544,105.241013 41.4108565,97.4899879 43.0475271,89.7389626 C44.0665862,84.6436671 45.2709288,79.5792521 46.0120627,74.453076 C46.8458384,68.7401689 48.1119421,63.0890229 49.1310012,57.4069964 C50.7367913,49.0383595 52.4352232,40.6697226 54.3189385,32.3628468 C55.8320869,25.8779252 57.3761158,19.4238842 59.4451146,13.0933655 C60.4641737,10.0361882 61.5758745,7.00989144 63.1816647,4.19975875 Z"
+                                                stroke="#EB7077" fill="#EB7077"></path>
+                                            <path d="M104.129312,0.30880579 C105.024849,0.30880579 105.920386,0.277925211 106.815923,0.30880579 C108.79228,1.35874548 110.459831,3.02629674 111.386248,5.09529554 C112.621472,7.44221954 113.640531,9.91266586 114.566948,12.4448733 C117.655006,21.9869723 119.754885,31.8069964 121.854765,41.5961399 C123.645838,50.3662244 125.34427,59.1671894 126.95006,67.999035 C127.073583,68.4622437 126.91918,69.1107358 127.536791,69.2342581 C125.31339,80.8453559 123.120869,92.4873341 120.341616,104.00579 C118.828468,110.212786 117.222678,116.388902 114.937515,122.379735 C113.702292,125.375151 112.436188,128.648492 109.811339,130.779252 C108.143788,131.149819 106.939445,129.883715 105.920386,128.741134 C104.160193,126.486852 103.079373,123.831122 102.029433,121.175392 C98.5399276,111.664174 96.4091677,101.751508 94.2475271,91.8697226 C92.6108565,84.1804584 91.1594692,76.4294331 89.6463209,68.7092883 C88.9669481,64.7874548 88.0405308,60.9273824 87.5155609,57.0055489 C87.4229192,56.9437877 87.2067551,56.8202654 87.1141134,56.7585042 C87.9787696,52.1572979 88.905187,47.5252111 89.8624849,42.9240048 C91.9932449,32.7642943 94.185766,22.6045838 97.335585,12.7227986 C98.4472859,9.44945718 99.6516285,6.1761158 101.442702,3.2424608 C102.122075,2.06899879 103.110253,1.173462 104.129312,0.30880579 Z"
+                                                stroke="#F6A2AD" fill="#F6A2AD"></path>
+                                            <path d="M142.760917,5.65114596 C143.872618,3.52038601 145.231363,1.14258142 147.640048,0.339686369 C159.899638,0.277925211 172.159228,0.30880579 184.418818,0.30880579 C183.276236,1.45138721 182.071894,2.59396864 181.299879,4.04535585 C178.922075,8.30687575 177.532449,13.0316043 176.111942,17.6945718 C172.468034,30.5408926 169.904946,43.6651387 167.46538,56.7893848 C165.211098,69.7283474 162.802413,82.66731 160.054041,95.5445115 C158.633534,102.029433 157.151267,108.483474 155.267551,114.875754 C154.063209,118.828468 152.797105,122.812063 150.820748,126.486852 C149.86345,128.154403 148.751749,129.976357 146.929795,130.841013 C135.226055,130.933655 123.491435,130.841013 111.787696,130.871894 C111.139204,130.871894 110.459831,130.871894 109.811339,130.779252 C112.436188,128.648492 113.702292,125.375151 114.937515,122.379735 C117.222678,116.388902 118.828468,110.212786 120.341616,104.00579 C123.120869,92.4873341 125.31339,80.8453559 127.536791,69.2342581 C130.223402,54.2571773 133.033534,39.2800965 136.615682,24.4882992 C138.283233,18.0960193 139.889023,11.6110977 142.760917,5.65114596 Z"
+                                                stroke="#EB7077" fill="#EB7077"></path>
+                                            <path d="M184.418818,0.30880579 C185.406996,0.30880579 186.426055,0.277925211 187.414234,0.30880579 C189.020024,1.14258142 190.162606,2.56308806 191.181665,4.01447527 C192.849216,6.67020507 193.899156,9.66562123 194.979976,12.5992762 C197.543064,20.4738239 199.45766,28.5645356 201.217853,36.6552473 C203.564777,47.5560917 205.602895,58.5186972 207.610133,69.4813028 C208.104222,72.106152 208.598311,74.7618818 208.907117,77.4176116 C209.030639,77.5411339 209.277684,77.7881785 209.370326,77.8808203 C208.258625,79.4248492 207.826297,81.277684 207.208685,83.037877 C205.263209,89.3066345 203.997105,95.7915561 202.916285,102.245597 C202.082509,107.310012 200.939928,112.343546 199.365018,117.222678 C198.191556,120.835706 196.771049,124.417853 194.424125,127.44415 C193.312425,128.895537 191.799276,130.007238 190.131725,130.748372 C187.568637,131.026297 186.055489,128.55585 184.820265,126.733896 C182.257177,122.256212 180.867551,117.253559 179.385283,112.374427 C174.506152,94.3092883 171.325452,75.8118215 167.897708,57.437877 C167.866828,57.1599517 167.712425,56.9129071 167.46538,56.7893848 C169.904946,43.6651387 172.468034,30.5408926 176.111942,17.6945718 C177.532449,13.0316043 178.922075,8.30687575 181.299879,4.04535585 C182.071894,2.59396864 183.276236,1.45138721 184.418818,0.30880579 Z"
+                                                stroke="#F6A2AD" fill="#F6A2AD"></path>
+                                            <path d="M0.030880579,70.562123 C0.833775633,70.5003619 1.63667069,70.3768396 2.47044632,70.3768396 L36.1302774,70.3768396 C37.5507841,70.562123 39.0330519,70.4386007 40.3917973,71.0562123 C42.3681544,71.8591074 44.1283474,73.2178528 45.4253317,74.9162847 C45.5797346,74.8236429 45.8576598,74.5765983 46.0120627,74.453076 C45.2709288,79.5792521 44.0665862,84.6436671 43.0475271,89.7389626 C41.4108565,97.4899879 39.681544,105.241013 37.5199035,112.899397 C36.1302774,117.655006 34.6788902,122.441496 32.3628468,126.857419 C31.5599517,128.401448 30.3247286,129.698432 28.9351025,130.779252 C28.4101327,130.871894 28.0086852,130.501327 27.5763571,130.223402 C26.1249698,129.296984 25.2911942,127.691194 24.3956574,126.239807 C20.1650181,116.605066 19.7018094,105.951267 17.0769602,95.8841978 C15.7490953,90.8506634 14.1124246,85.8480097 11.7037394,81.2159228 C10.2214717,78.4366707 8.39951749,75.7809409 6.02171291,73.6501809 C4.2615199,72.2296743 2.22340169,71.0870929 0.030880579,70.562123 Z"
+                                                stroke="#F6A2AD" fill="#F6A2AD"></path>
+                                            <path d="M212.087817,73.7737033 C214.033293,71.5811821 216.936068,70.1915561 219.869723,70.3150784 L245.191797,70.3150784 C248.712183,70.3768396 252.26345,70.1915561 255.783836,70.4077201 C254.733896,71.1179735 253.467793,71.3958987 252.356092,71.9826297 C248.496019,73.7428227 245.191797,76.6764777 243.091918,80.3512666 C239.725935,86.2185766 238.552473,92.9505428 237.564294,99.5589867 C236.576116,106.043908 236.606996,112.744994 234.507117,119.044632 C233.08661,123.460555 230.92497,127.907358 227.18842,130.810133 C215.577322,130.933655 203.966224,130.841013 192.386007,130.871894 C191.613993,130.871894 190.872859,130.902774 190.131725,130.748372 C191.799276,130.007238 193.312425,128.895537 194.424125,127.44415 C196.771049,124.417853 198.191556,120.835706 199.365018,117.222678 C200.939928,112.343546 202.082509,107.310012 202.916285,102.245597 C203.997105,95.7915561 205.263209,89.3066345 207.208685,83.037877 C207.826297,81.277684 208.258625,79.4248492 209.370326,77.8808203 C210.296743,76.5220748 210.914355,74.9471653 212.087817,73.7737033 Z"
+                                                stroke="#EB7077" fill="#EB7077"></path>
+                                        </g>
+                                    </g>
+                                </svg>
+                            </div>
+                            Materialize
+                        </a>
+                    </li>
+                    <li>
+                        <a class='skillNotActive' data-toggle="tab">
+                            <div class="alt-tabs-icon">
+                                <svg class="service-icons" viewBox="0 0 128 128">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M64 5.103c-33.347 0-60.388 27.035-60.388 60.388 0 26.682 17.303 49.317 41.297 57.303 3.017.56 4.125-1.31 4.125-2.905 0-1.44-.056-6.197-.082-11.243-16.8 3.653-20.345-7.125-20.345-7.125-2.747-6.98-6.705-8.836-6.705-8.836-5.48-3.748.413-3.67.413-3.67 6.063.425 9.257 6.223 9.257 6.223 5.386 9.23 14.127 6.562 17.573 5.02.542-3.903 2.107-6.568 3.834-8.076-13.413-1.525-27.514-6.704-27.514-29.843 0-6.593 2.36-11.98 6.223-16.21-.628-1.52-2.695-7.662.584-15.98 0 0 5.07-1.623 16.61 6.19C53.7 35 58.867 34.327 64 34.304c5.13.023 10.3.694 15.127 2.033 11.526-7.813 16.59-6.19 16.59-6.19 3.287 8.317 1.22 14.46.593 15.98 3.872 4.23 6.215 9.617 6.215 16.21 0 23.194-14.127 28.3-27.574 29.796 2.167 1.874 4.097 5.55 4.097 11.183 0 8.08-.07 14.583-.07 16.572 0 1.607 1.088 3.49 4.148 2.897 23.98-7.994 41.263-30.622 41.263-57.294C124.388 32.14 97.35 5.104 64 5.104z"></path>
+                                    <path d="M26.484 91.806c-.133.3-.605.39-1.035.185-.44-.196-.685-.605-.543-.906.13-.31.603-.395 1.04-.188.44.197.69.61.537.91zm-.743-.55M28.93 94.535c-.287.267-.85.143-1.232-.28-.396-.42-.47-.983-.177-1.254.298-.266.844-.14 1.24.28.394.426.472.984.17 1.255zm-.575-.618M31.312 98.012c-.37.258-.976.017-1.35-.52-.37-.538-.37-1.183.01-1.44.373-.258.97-.025 1.35.507.368.545.368 1.19-.01 1.452zm0 0M34.573 101.373c-.33.365-1.036.267-1.552-.23-.527-.487-.674-1.18-.343-1.544.336-.366 1.045-.264 1.564.23.527.486.686 1.18.333 1.543zm0 0M39.073 103.324c-.147.473-.825.688-1.51.486-.683-.207-1.13-.76-.99-1.238.14-.477.823-.7 1.512-.485.683.206 1.13.756.988 1.237zm0 0M44.016 103.685c.017.498-.563.91-1.28.92-.723.017-1.308-.387-1.315-.877 0-.503.568-.91 1.29-.924.717-.013 1.306.387 1.306.88zm0 0M48.614 102.903c.086.485-.413.984-1.126 1.117-.7.13-1.35-.172-1.44-.653-.086-.498.422-.997 1.122-1.126.714-.123 1.354.17 1.444.663zm0 0"></path>
+                                </svg>
+                            </div>
+                            Github
+                        </a>
+                    </li>
+                    <li>
+                        <a class='skillNotActive' data-toggle="tab">
+                            <div class="alt-tabs-icon">
+                                <svg class="service-icons" viewBox="0 0 128 128">
+                                    <path fill="#F34F29" d="M124.737 58.378l-55.116-55.114c-3.172-3.174-8.32-3.174-11.497 0l-11.444 11.446 14.518 14.518c3.375-1.139 7.243-.375 9.932 2.314 2.703 2.706 3.461 6.607 2.294 9.993l13.992 13.993c3.385-1.167 7.292-.413 9.994 2.295 3.78 3.777 3.78 9.9 0 13.679-3.78 3.78-9.901 3.78-13.683 0-2.842-2.844-3.545-7.019-2.105-10.521l-13.048-13.048-.002 34.341c.922.455 1.791 1.063 2.559 1.828 3.778 3.777 3.778 9.898 0 13.683-3.779 3.777-9.904 3.777-13.679 0-3.778-3.784-3.778-9.905 0-13.683.934-.933 2.014-1.638 3.167-2.11v-34.659c-1.153-.472-2.231-1.172-3.167-2.111-2.862-2.86-3.551-7.06-2.083-10.576l-14.313-14.313-37.792 37.79c-3.175 3.177-3.175 8.325 0 11.5l55.117 55.114c3.174 3.174 8.32 3.174 11.499 0l54.858-54.858c3.174-3.176 3.174-8.327-.001-11.501z"></path>
+                                </svg>
+                            </div>
+                            Git
+                        </a>
+                    </li>
+                    <li>
+                        <a class='skillNotActive' data-toggle="tab">
+                            <div class="alt-tabs-icon">
+                                <svg class="service-icons" viewBox="0 0 128 128">
+                                    <path fill="#F7A80D" d="M38.089 77.466l-11.4 4.896 10.559 4.514 12.241-4.514-11.4-4.896zm-17.138 6.12l-.382 22.034 16.679 7.345v-22.876l-16.297-6.503zm34.276 0l-15.073 5.739v21.575l15.073-6.121v-21.193zM73.206 15.035l-11.476 4.896 10.635 4.515 12.241-4.515-11.4-4.896zm-15.914 6.503v22.034l14.231 4.132.459-20.046-14.69-6.12zm31.828 1.224l-13.466 5.738v21.652l13.466-6.121v-21.269zM19.306 46.047l-11.399 4.897 10.558 4.514 12.241-4.514-11.4-4.897zm-17.138 6.121l-.382 22.034 16.679 7.345v-22.876l-16.297-6.503zm34.275 0l-15.071 5.738v21.574l15.071-6.12v-21.192zM56.03 45.231l-11.4 4.897 10.558 4.514 12.241-4.514-11.399-4.897zm-17.137 6.121l-.383 22.035 16.679 7.345v-22.877l-16.296-6.503zm34.275 0l-15.072 5.738v21.576l15.072-6.121v-21.193zM109.076 15.035l-11.399 4.896 10.559 4.515 12.241-4.515-11.401-4.896zm-17.137 6.121l-.382 22.034 16.679 7.344v-22.876l-16.297-6.502zm34.275 0l-15.071 5.738v21.575l15.071-6.12v-21.193z"></path>
+                                </svg>
+                            </div>
+                            AWS - EC2
+                        </a>
+                    </li>
+                    <li>
+                        <a class='skillNotActive' data-toggle="tab">
+                            <div class="alt-tabs-icon">
+                                <svg class="service-icons-firebase" width="256px" height="351px" viewBox="0 0 256 351" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid">
+                                    <defs>
+                                        <path d="M1.25273437,280.731641 L2.85834533,277.600858 L102.211177,89.0833546 L58.0613266,5.6082033 C54.3920011,-1.28304578 45.0741245,0.473674398 43.8699203,8.18789086 L1.25273437,280.731641 Z"
+                                            id="path-1"></path>
+                                        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+                                            <feGaussianBlur stdDeviation="17.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+                                            <feOffset dx="0" dy="0" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+                                            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+                                            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.06 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+                                        </filter>
+                                        <path d="M134.417103,148.974235 L166.455722,116.161738 L134.417104,55.1546874 C131.374828,49.3635911 123.983911,48.7568362 120.973828,54.5646483 L103.26875,88.6738296 L102.739423,90.4175473 L134.417103,148.974235 Z"
+                                            id="path-3"></path>
+                                        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-4">
+                                            <feGaussianBlur stdDeviation="3.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+                                            <feOffset dx="1" dy="-9" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+                                            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+                                            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.09 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+                                        </filter>
+                                    </defs>
+                                    <g>
+                                        <path d="M0,282.99762 L2.12250746,280.0256 L102.527363,89.5119284 L102.739423,87.4951323 L58.478806,4.35817711 C54.7706269,-2.60604179 44.3313035,-0.845245771 43.1143483,6.95065473 L0,282.99762 Z"
+                                            fill="#FFC24A"></path>
+                                        <g>
+                                            <use fill="#FFA712" fill-rule="evenodd" xlink:href="#path-1"></use>
+                                            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                                        </g>
+                                        <path d="M135.004975,150.380704 L167.960199,116.629461 L134.995423,53.6993114 C131.866109,47.7425353 123.128817,47.7253411 120.032618,53.6993112 L102.421015,87.2880848 L102.421015,90.1487443 L135.004975,150.380704 Z"
+                                            fill="#F4BD62"></path>
+                                        <g>
+                                            <use fill="#FFA50E" fill-rule="evenodd" xlink:href="#path-3"></use>
+                                            <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                                        </g>
+                                        <polygon fill="#F6820C" points="0 282.99762 0.962097168 282.030396 4.45771144 280.60956 132.935323 152.60956 134.563025 148.178595 102.513123 87.1048584"></polygon>
+                                        <path d="M139.120971,347.551268 L255.395916,282.703666 L222.191698,78.2093373 C221.153051,71.8112478 213.303658,69.2818149 208.724314,73.8694368 L0.000254726368,282.997875 L115.608454,347.545536 C122.914643,351.624979 131.812872,351.62689 139.120971,347.551268"
+                                            fill="#FDE068"></path>
+                                        <path d="M254.354084,282.159837 L221.401937,79.2179369 C220.371175,72.8684188 213.843792,70.2409553 209.299213,74.79375 L1.28945312,282.600785 L115.627825,346.509458 C122.878548,350.557931 131.709226,350.559827 138.961846,346.515146 L254.354084,282.159837 Z"
+                                            fill="#FCCA3F"></path>
+                                        <path d="M139.120907,345.64082 C131.812808,349.716442 122.914579,349.714531 115.60839,345.635089 L0.93134768,282.014551 L0.000191044776,282.997875 L115.60839,347.545536 C122.914579,351.624979 131.812808,351.62689 139.120907,347.551268 L255.395853,282.703666 L255.111196,280.951785 L139.120907,345.64082 Z"
+                                            fill="#EEAB37"></path>
+                                    </g>
+                                </svg>
+                            </div>
+                            Firebase
+                        </a>
+                    </li>
+                    <li>
+                        <a class='skillNotActive' data-toggle="tab">
+                            <div class="alt-tabs-icon">
+                                <svg class="service-icons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+                                    <circle fill="#fff" cx="64.149" cy="64.236" r="60.999" />
+                                    <path fill-opacity=".1" d="M102.966 75.327c0-21.439-17.379-38.819-38.817-38.819s-38.818 17.38-38.818 38.819h11.09c0-15.314 12.415-27.727 27.727-27.727 15.313 0 27.727 12.413 27.727 27.727"
+                                    />
+                                    <circle fill-opacity=".1" cx="66.922" cy="71.999" r="21.072" />
+                                    <linearGradient id="a" gradientUnits="userSpaceOnUse" x1="395.191" y1="484.168" x2="395.191" y2="484.723" gradientTransform="matrix(82 0 0 82 -32341.5 -39660.313)">
+                                        <stop offset="0" stop-color="#81B4E0" />
+                                        <stop offset="1" stop-color="#0C5A94" />
+                                    </linearGradient>
+                                    <circle fill="url(#a)" cx="64.149" cy="64.235" r="22.736" />
+                                    <linearGradient id="b" gradientUnits="userSpaceOnUse" x1="-608.91" y1="-597.648" x2="-608.91" y2="-547.185" gradientTransform="translate(675 599.775)">
+                                        <stop offset="0" stop-color="#F06B59" />
+                                        <stop offset="1" stop-color="#DF2227" />
+                                    </linearGradient>
+                                    <path fill="url(#b)" d="M119.602 36.508c-15.266-30.716-52.542-43.24-83.259-27.974-9.578 4.761-17.764 11.913-23.765 20.766l24.955 43.253c-4.597-14.606 3.521-30.174 18.127-34.77 2.567-.808 5.243-1.238 7.935-1.274"
+                                    />
+                                    <linearGradient id="c" gradientUnits="userSpaceOnUse" x1="-657.835" y1="-491.393" x2="-632.327" y2="-533.537" gradientTransform="translate(675 599.775)">
+                                        <stop offset="0" stop-color="#388B41" />
+                                        <stop offset="1" stop-color="#4CB749" />
+                                    </linearGradient>
+                                    <path fill="url(#c)" d="M12.578 29.3c-19.1 28.492-11.486 67.071 17.005 86.171 8.814 5.909 18.997 9.461 29.575 10.319l26.063-44.363c-9.745 11.811-27.22 13.486-39.032 3.74-4.011-3.309-7.012-7.679-8.657-12.613"
+                                    />
+                                    <linearGradient id="d" gradientUnits="userSpaceOnUse" x1="-572.385" y1="-486.91" x2="-599.557" y2="-552.345" gradientTransform="translate(675 599.775)">
+                                        <stop offset="0" stop-color="#E4B022" />
+                                        <stop offset=".3" stop-color="#FCD209" />
+                                    </linearGradient>
+                                    <path fill="url(#d)" d="M59.158 125.791c34.204 2.585 64.027-23.047 66.613-57.25.834-11.037-1.295-22.093-6.17-32.031h-56.006c15.312.07 27.67 12.541 27.598 27.854-.028 6.195-2.131 12.204-5.972 17.064"
+                                    />
+                                    <linearGradient id="e" gradientUnits="userSpaceOnUse" x1="-649.391" y1="-528.885" x2="-649.391" y2="-573.247" gradientTransform="translate(675 599.775)">
+                                        <stop offset="0" stop-opacity=".15" />
+                                        <stop offset=".3" stop-opacity=".06" />
+                                        <stop offset="1" stop-opacity=".03" />
+                                    </linearGradient>
+                                    <path fill="url(#e)" d="M12.578 29.3l24.955 43.253c-1.849-6.221-1.457-12.893 1.107-18.854l-24.954-26.063" />
+                                    <linearGradient id="f" gradientUnits="userSpaceOnUse" x1="-588.158" y1="-514.559" x2="-618.657" y2="-483.505" gradientTransform="translate(675 599.775)">
+                                        <stop offset="0" stop-opacity=".15" />
+                                        <stop offset=".3" stop-opacity=".06" />
+                                        <stop offset="1" stop-opacity=".03" />
+                                    </linearGradient>
+                                    <path fill="url(#f)" d="M59.158 125.791l26.063-44.363c-4.112 4.904-9.794 8.233-16.082 9.426l-11.091 34.937" />
+                                    <linearGradient id="g" gradientUnits="userSpaceOnUse" x1="-588.6" y1="-505.621" x2="-584.163" y2="-549.431" gradientTransform="translate(675 599.775)">
+                                        <stop offset="0" stop-opacity=".15" />
+                                        <stop offset=".3" stop-opacity=".06" />
+                                        <stop offset="1" stop-opacity=".03" />
+                                    </linearGradient>
+                                    <path fill="url(#g)" d="M119.602 36.508h-56.007c8.436.039 16.396 3.918 21.626 10.537l35.491-8.873" />
+                                </svg>
+                            </div>
+                            Chrome Dev Tools
+                        </a>
+                    </li>
+                    <li>
+                        <a class='skillNotActive' data-toggle="tab">
+                            <div class="alt-tabs-icon">
+                                <svg class="service-icons" viewBox="0 0 128 128">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" fill="#80B5E2" d="M126.216.727c-36.223-.011-72.284-.01-108.508-.01-5.181 0-10.451-.004-15.632.011-.328.001-1.076.153-1.076.236v126.036h126v-126.036c0-.083-.414-.237-.784-.237zm-12.736 113.939c-32.641-.038-65.271-.03-97.912-.03-1.576 0-1.569-.003-1.569-1.627v-97.797c.001-1.607-.015-1.212 1.578-1.212h97.798c1.638 0 1.625-.396 1.625 1.291v48.837c0 16.32-.007 32.64.036 48.959.004 1.243-.289 1.58-1.556 1.579zM56.82 39.644c-6.668-1.563-13.38-.792-20.085-.107-1.423.146-1.695.755-1.691 2.018.043 15.207-.044 30.414-.044 45.621v.824h9v-17.861c5 .375 9.576.286 14.049-1.31 7.169-2.558 10.752-8.111 10.365-16.219-.313-6.548-4.426-11.286-11.594-12.966zm-1.953 22.344c-3.194 1.557-6.59 1.52-10.005 1.058-.266-.036-.675-.511-.677-.784-.04-5.331-.03-10.661-.03-16.138 3.131-.488 6.1-.726 9.062.018 3.673.923 5.804 3.319 6.201 6.917.436 3.954-1.247 7.319-4.551 8.929zM88.168 69.094c-1.469-.805-3.08-1.347-4.606-2.053-1.41-.653-2.833-1.296-4.174-2.076-.935-.543-1.36-1.492-1.36-2.611 0-1.892 1.294-3.417 3.504-3.598 1.649-.135 3.361.035 4.994.34 1.376.256 2.681.899 4.082 1.395l1.767-6.269c-3.345-1.624-6.749-2.235-10.285-2.11-3.006.105-5.814.871-8.352 2.599-4.743 3.229-7.057 11.807.051 16.416 1.805 1.171 3.893 1.905 5.851 2.841 1.218.583 2.489 1.079 3.641 1.772 1.452.874 1.946 2.297 1.694 3.94-.247 1.615-1.33 2.638-2.836 2.874-1.68.264-3.466.435-5.118.144-2.339-.411-4.599-1.281-6.974-1.979-.426 1.59-.831 3.349-1.384 5.06-.303.938-.125 1.401.795 1.768 5.617 2.231 11.334 2.69 17.082.717 4.296-1.475 6.915-4.524 7.256-9.169.332-4.527-1.708-7.851-5.628-10.001z"></path>
+                                </svg>
+                            </div>
+                            Photoshop
+                        </a>
+                    </li>
+                    <li>
+                        <a class='skillNotActive' data-toggle="tab">
+                            <div class="alt-tabs-icon">
+                                <svg class="service-icons" width="256px" height="256px" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid">
+                                    <g>
+                                        <path d="M191.97885,0 L191.97885,219.867316 L0,191.353848 L191.97885,255.998083 L255.97885,229.374998 L255.97885,30.592308 L256,30.5826932 L255.97885,30.5403853 L255.97885,26.6250001 L191.97885,0 Z M124.796158,37.4576925 L65.9942314,95.5826932 L30.5923079,68.9211553 L16.0019234,73.7942316 L52.0192315,109.398076 L16.0019234,145.000006 L30.5923079,149.875005 L65.9942314,123.211541 L65.9961553,123.211541 L124.794228,181.332699 L160.011538,166.369233 L160.011538,52.4211546 L124.796158,37.4576925 Z M124.794228,78.9307702 L124.794228,139.857695 L84.340386,109.394236 L124.794228,78.9307702 Z"
+                                            fill="#016EC5"></path>
+                                    </g>
+                                </svg>
+                            </div>
+                            VSCode
+                        </a>
+                    </li>
+                    <li>
+                        <a class='skillNotActive' data-toggle="tab">
+                            <div class="alt-tabs-icon">
+                                <svg class="service-icons" width="256px" height="256px" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid">
+                                    <defs>
+                                        <linearGradient x1="1.35359116%" y1="144.124579%" x2="75.5801105%" y2="24.6296296%" id="linearGradient-1">
+                                            <stop stop-color="#765AF8" offset="2%"></stop>
+                                            <stop stop-color="#B345F1" offset="38%"></stop>
+                                            <stop stop-color="#FA3293" offset="76%"></stop>
+                                            <stop stop-color="#FF318C" offset="94%"></stop>
+                                        </linearGradient>
+                                        <linearGradient x1="60.0228311%" y1="98.5204082%" x2="25.4109589%" y2="6.72193878%" id="linearGradient-2">
+                                            <stop stop-color="#765AF8" offset="18%"></stop>
+                                            <stop stop-color="#8655F6" offset="24%"></stop>
+                                            <stop stop-color="#9F4CF3" offset="34%"></stop>
+                                            <stop stop-color="#AE47F2" offset="44%"></stop>
+                                            <stop stop-color="#B345F1" offset="52%"></stop>
+                                        </linearGradient>
+                                        <linearGradient x1="87.7722772%" y1="80.7973422%" x2="17.9405941%" y2="35.4983389%" id="linearGradient-3">
+                                            <stop stop-color="#765AF8" offset="2%"></stop>
+                                            <stop stop-color="#B345F1" offset="38%"></stop>
+                                        </linearGradient>
+                                    </defs>
+                                    <g>
+                                        <path d="M0,49.2 L43.6,0 L132.8,19.2 L144.8,55.6 L136,118.8 L100.537692,100.651642 L102.4,151.2 L102.4,195.2 L24.4,196 L0,49.2 Z"
+                                            fill="url(#linearGradient-1)"></path>
+                                        <polygon fill="url(#linearGradient-2)" points="80.8 150 85.6 89.6 158 15.2 222.8 27.2 256 110 221.2 144.4 164.8 135.2 129.2 172"></polygon>
+                                        <polygon fill="url(#linearGradient-3)" points="158 15.2 54 107.6 74 226 160.4 256 256 198.8"></polygon>
+                                        <rect fill="#000000" x="48" y="48" width="160" height="160"></rect>
+                                        <path d="M63.2,178 L123.2,178 L123.2,188 L63.2,188 L63.2,178 Z M62.4,68.8 L89.6,68.8 C105.6,68.8 115.2,78 115.2,91.6 C115.2,106.8 103.2,114.8 88.4,114.8 L77.2,114.8 L77.2,134.8 L62.4,134.8 L62.4,68.8 L62.4,68.8 Z M88.8,102.8 C95.78,102.8 100.4,98 100.4,92.4 C100.4,86 96,82.4 88.4,82.4 L77.2,82.4 L77.2,102.8 L88.8,102.8 Z M118.8,125.6 L127.6,115.2 C133.6,120 140,123.2 147.6,123.2 C153.6,123.2 157.2,120.8 157.2,116.8 C157.2,113.2 154.8,111.2 143.6,108.4 C130,104.8 121.6,101.2 121.6,88 L121.6,87.6 C121.6,75.6 131.2,67.6 144.8,67.6 C153.771202,67.5615535 162.498743,70.5176559 169.6,76 L162,87.2 C156,83.2 150.4,80.8 144.8,80.8 C139.2,80.8 136.4,83.2 136.4,86.8 C136.4,91.2 139.2,92.8 150.8,95.6 C164.4,99.2 172,104 172,115.6 C172,128.8 162,136.4 147.6,136.4 C136.984542,136.54349 126.703599,132.688136 118.8,125.6 Z"
+                                            fill="#FFFFFF"></path>
+                                    </g>
+                                </svg>
+                            </div>
+                            PhpStorm
+                        </a>
+                    </li>
+                    <li>
+                        <a class='skillNotActive' data-toggle="tab">
+                            <div class="alt-tabs-icon">
+                                <svg class="service-icons" width="256px" height="256px" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid">
+                                    <g>
+                                        <path d="M165.963541,15.8384262 C162.07318,3.86308197 149.212328,-2.69009836 137.239082,1.20236066 C125.263738,5.09272131 118.710557,17.9535738 122.603016,29.9268197 L181.550164,211.292328 C185.597902,222.478689 197.682361,228.765377 209.282098,225.426885 C221.381246,221.943607 228.756984,209.093246 224.896,197.21023 C224.749115,196.756984 165.963541,15.8384262 165.963541,15.8384262"
+                                            fill="#DFA22F"></path>
+                                        <path d="M74.6260984,45.515541 C70.7336393,33.5422951 57.8727869,26.9891148 45.899541,30.8794754 C33.9241967,34.7698361 27.3710164,47.6306885 31.2634754,59.6060328 L90.210623,240.971541 C94.2583607,252.157902 106.34282,258.44459 117.942557,255.104 C130.041705,251.62282 137.417443,238.772459 133.556459,226.887344 C133.409574,226.436197 74.6260984,45.515541 74.6260984,45.515541"
+                                            fill="#3CB187"></path>
+                                        <path d="M240.161574,166.045377 C252.136918,162.155016 258.688,149.294164 254.797639,137.31882 C250.907279,125.345574 238.046426,118.792393 226.07318,122.682754 L44.7076721,181.632 C33.5213115,185.677639 27.234623,197.762098 30.5731148,209.361836 C34.0563934,221.460984 46.9067541,228.836721 58.7897705,224.975738 C59.2430164,224.828852 240.161574,166.045377 240.161574,166.045377"
+                                            fill="#CE1E5B"></path>
+                                        <path d="M82.507541,217.270557 C94.312918,213.434754 109.528131,208.491016 125.855475,203.186361 C122.019672,191.380984 117.075934,176.163672 111.76918,159.83423 L68.4191475,173.924721 L82.507541,217.270557"
+                                            fill="#392538"></path>
+                                        <path d="M173.847082,187.591344 C190.235279,182.267803 205.467279,177.31777 217.195016,173.507148 C213.359213,161.70177 208.413377,146.480262 203.106623,130.146623 L159.75659,144.237115 L173.847082,187.591344"
+                                            fill="#BB242A"></path>
+                                        <path d="M210.484459,74.7058361 C222.457705,70.8154754 229.010885,57.954623 225.120525,45.9792787 C221.230164,34.0060328 208.369311,27.4528525 196.393967,31.3432131 L15.028459,90.292459 C3.84209836,94.3380984 -2.44459016,106.422557 0.896,118.022295 C4.37718033,130.121443 17.227541,137.49718 29.1126557,133.636197 C29.5638033,133.489311 210.484459,74.7058361 210.484459,74.7058361"
+                                            fill="#72C5CD"></path>
+                                        <path d="M52.8220328,125.933115 C64.6274098,122.097311 79.8468197,117.151475 96.1762623,111.84682 C90.8527213,95.4565246 85.9026885,80.2245246 82.0920656,68.4946885 L38.731541,82.5872787 L52.8220328,125.933115"
+                                            fill="#248C73"></path>
+                                        <path d="M144.159475,96.256 C160.551869,90.9303607 175.785967,85.9803279 187.515803,82.1676066 C182.190164,65.7752131 177.240131,50.5390164 173.42741,38.807082 L130.068984,52.8996721 L144.159475,96.256"
+                                            fill="#62803A"></path>
+                                    </g>
+                                </svg>
+                            </div>
+                            Slack
+                        </a>
+                    </li>
+                    <li>
+                        <a class='skillNotActive' data-toggle="tab">
+                            <div class="alt-tabs-icon">
+                                <svg class="service-icons" width="256px" height="264px" viewBox="0 0 256 264" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid">
+                                    <g fill="none">
+                                        <polygon fill="#F15A24" fill-rule="nonzero" points="45.9853445 256.455035 0 258.050295 23.5727668 234.082843 45.9871803 256.45687"></polygon>
+                                        <path d="M254.580742,137.579706 C246.037197,204.193287 185.105239,251.256212 118.502672,242.703489 C51.8890918,234.158109 4.8261665,173.227986 13.3697111,106.619913 C21.918763,40.0081676 82.8378711,-7.06026487 149.456959,1.49429423 C216.066868,10.0360031 263.140808,70.9716329 254.580742,137.577871"
+                                            fill="#F15A24" fill-rule="nonzero"></path>
+                                        <path d="M164.981832,87.5318642 C172.972818,96.0258438 165.086469,116.108865 165.086469,116.108865 C165.086469,116.108865 157.291907,144.502291 112.665012,181.321774 L104.334413,173.145378 L160.985421,115.246066 L162.079523,113.768293 C163.586668,111.31207 164.834972,87.3666474 164.981832,87.5318642"
+                                            fill="#999999" fill-rule="nonzero"></path>
+                                        <path d="M164.981832,87.5318642 C172.972818,96.0258438 165.086469,116.108865 165.086469,116.108865 C165.086469,116.108865 157.291907,144.502291 112.665012,181.321774 L104.334413,173.145378 L160.985421,115.246066 L162.079523,113.768293 C163.586668,111.31207 164.834972,87.3666474 164.981832,87.5318642 L164.981832,87.5318642 Z"
+                                            stroke="#FFFFFF" stroke-width="1.918" stroke-linecap="round" stroke-linejoin="round"></path>
+                                        <path d="M92.099191,161.108415 L164.862508,87.3225896 C168.556022,91.7081779 169.34172,96.4333786 168.269646,103.165046 C167.548199,107.827831 159.494798,117.146059 159.494798,117.146059 L104.334413,173.145378"
+                                            fill="#666666" fill-rule="nonzero"></path>
+                                        <path d="M92.099191,161.108415 L164.862508,87.3225896 C168.556022,91.7081779 169.34172,96.4333786 168.269646,103.165046 C167.548199,107.827831 159.494798,117.146059 159.494798,117.146059 L104.334413,173.145378"
+                                            stroke="#FFFFFF" stroke-width="1.201" stroke-linecap="round" stroke-linejoin="round"></path>
+                                        <path d="M164.981832,87.583265 L92.099191,161.110251 L92.2460504,160.967063 L92.2185143,160.978078 L74.1364527,143.160363 C111.844435,96.2553116 136.224929,87.5098353 136.224929,87.5098353 C136.224929,87.5098353 152.096757,81.314205 163.419615,86.1220141 C164.289757,86.5882927 164.66792,86.856311 164.979996,87.5851007"
+                                            fill="#FF931E" fill-rule="nonzero"></path>
+                                        <path d="M164.981832,87.583265 L92.099191,161.110251 L92.2460504,160.967063 L92.2185143,160.978078 L74.1364527,143.160363 C111.844435,96.2553116 136.224929,87.5098353 136.224929,87.5098353 C136.224929,87.5098353 152.096757,81.314205 163.419615,86.1220141 C164.289757,86.5882927 164.66792,86.856311 164.979996,87.5851007 L164.981832,87.583265 Z"
+                                            stroke="#FFFFFF" stroke-width="1.918" stroke-linecap="round" stroke-linejoin="round"></path>
+                                        <path d="M112.665012,181.319938 C95.276861,195.640564 73.0239928,218.13575 42.776467,233.825839 L49.5044625,262.58825 L20.9880417,234.501392 L92.0973553,161.108415"
+                                            fill="#999999" fill-rule="nonzero"></path>
+                                        <path d="M112.665012,181.319938 C95.276861,195.640564 73.0239928,218.13575 42.776467,233.825839 L49.5044625,262.58825 L20.9880417,234.501392 L92.0973553,161.108415"
+                                            stroke="#FFFFFF" stroke-width="1.918" stroke-linecap="round" stroke-linejoin="round"></path>
+                                        <polygon fill="#F15A24" fill-rule="nonzero" points="74.6229244 143.400845 92.2882725 160.996435 51.4778855 169.835534 74.2319113 143.083262 74.6247601 143.400845"></polygon>
+                                        <polygon stroke="#FFFFFF" stroke-width="1.918" stroke-linecap="round" stroke-linejoin="round" points="74.6229244 143.400845 92.2882725 160.996435 51.4778855 169.835534 74.2319113 143.083262 74.6247601 143.400845"></polygon>
+                                        <path d="M158.024368,66.2464323 C156.291428,81.8869566 167.551871,95.9671001 183.192395,97.7110552 C198.820069,99.4476675 212.913063,88.1780455 214.657018,72.5430283 C216.395466,56.9080112 205.116666,42.8131818 189.483484,41.0747339 C173.841124,39.3473004 159.759145,50.6022364 158.024368,66.2464323"
+                                            fill="#999999" fill-rule="nonzero"></path>
+                                        <path d="M158.024368,66.2464323 C156.291428,81.8869566 167.551871,95.9671001 183.192395,97.7110552 C198.820069,99.4476675 212.913063,88.1780455 214.657018,72.5430283 C216.395466,56.9080112 205.116666,42.8131818 189.483484,41.0747339 C173.841124,39.3473004 159.759145,50.6022364 158.024368,66.2464323 L158.024368,66.2464323 Z"
+                                            stroke="#FFFFFF" stroke-width="1.918" stroke-linecap="round" stroke-linejoin="round"></path>
+                                        <path d="M210.565149,85.1380562 C215.820879,77.4591462 215.549189,65.9710709 214.493637,62.5676047 C213.199439,58.4004697 210.302638,51.6229091 205.250675,48.1001197 L178.536953,72.7064094 C178.536953,72.7064094 199.067895,94.7646889 199.602096,94.8381185 C199.824221,94.8638189 205.772026,92.1395774 210.565149,85.1380562"
+                                            fill="#666666" fill-rule="nonzero"></path>
+                                        <path d="M210.565149,85.1380562 C215.820879,77.4591462 215.549189,65.9710709 214.493637,62.5676047 C213.199439,58.4004697 210.302638,51.6229091 205.250675,48.1001197 L178.536953,72.7064094 C178.536953,72.7064094 199.067895,94.7646889 199.602096,94.8381185 C199.824221,94.8638189 205.772026,92.1395774 210.565149,85.1380562 L210.565149,85.1380562 Z M205.175409,65.8627621 C205.175409,65.8627621 207.743613,72.1703727 204.48517,77.0773118 L205.175409,65.8627621 Z"
+                                            stroke="#FFFFFF" stroke-width="1.918" stroke-linecap="round" stroke-linejoin="round"></path>
+                                        <polyline fill="#666666" fill-rule="nonzero" points="104.964073 173.156392 75.4820518 178.402944 93.2777376 159.913347"></polyline>
+                                        <path d="M104.964073,173.156392 L75.4820518,178.402944 L93.2777376,159.913347 M75.3076562,143.529347 L112.788007,178.803135"
+                                            stroke="#FFFFFF" stroke-width="1.918" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    </g>
+                                </svg>
+                            </div>
+                            Postman
+                        </a>
+                    </li>
+                    <li>
+                        <a class='skillNotActive' data-toggle="tab">
+                            <div class="alt-tabs-icon">
+                                <img class="service-icons-meistertask" src="./images/skills/meistertask.png" alt="">
+                            </div>
+                            Meistertask
+                        </a>
+                    </li>
+                </ul>
+                <!-- End Nav tabs -->
+            </div>
+        </section>
+        <!-- End Services Section -->
+        <!-- Divider -->
+        <hr class="mt-0 mb-0 " />
+        <!-- End Divider -->
+        <!-- Contact Section -->
+        <section class="page-section" id="contact">
+            <div class="container relative">
+                <h2 class="section-title font-alt mb-70 mb-sm-40">
+                    Contact
+                </h2>
+                <div class="row mb-60 mb-xs-40">
+                    <div class="col-md-8 col-md-offset-2">
+                        <div class="row">
+                            <!-- Phone -->
+                            <div class="col-sm-6 col-lg-4 pt-20 pb-20 pb-xs-0">
+                                <div class="contact-item">
+                                    <div class="ci-icon">
+                                        <i class="fa fa-phone"></i>
+                                    </div>
+                                    <div class="ci-title font-alt">
+                                        Phone
+                                    </div>
+                                    <div class="ci-text">
+                                        <a class="phone" href="tel:949-891-2732">949-891-2732</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Phone -->
+
+                            <!-- Address -->
+                            <div class="col-sm-6 col-lg-4 pt-20 pb-20 pb-xs-0">
+                                <div class="contact-item">
+                                    <div class="ci-icon">
+                                        <i class="fa fa-map-marker"></i>
+                                    </div>
+                                    <div class="ci-title font-alt">
+                                        Location
+                                    </div>
+                                    <div class="ci-text">
+                                        Orange County, CA
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Address -->
+
+                            <!-- Email -->
+                            <div class="col-sm-6 col-lg-4 pt-20 pb-20 pb-xs-0">
+                                <div class="contact-item">
+                                    <div class="ci-icon">
+                                        <i class="fa fa-envelope"></i>
+                                    </div>
+                                    <div class="ci-title font-alt">
+                                        Email
+                                    </div>
+                                    <div class="ci-text">
+                                        <a class='email' href="mailto: nickquan.dev@gmail.com">nickquan.dev@gmail.com</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Email -->
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="row">
+                        <div class="messages"></div>
+                    </div> -->
+                <!-- Contact Form -->
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <form class="form contact-form" id="contact_form" action="php_mailer/mail_handler.php" method="post">
+                            <div class="clearfix">
+                                <div class="cf-left-col">
+                                    <!-- Name -->
+                                    <div class="form-group">
+                                        <input type="text" name="name" id="name" class="input-md round form-control" placeholder="Name" pattern=".{3,100}" required>
+                                    </div>
+
+                                    <!-- Email -->
+                                    <div class="form-group">
+                                        <input type="email" name="email" id="email" class="input-md round form-control" placeholder="Email" pattern=".{5,100}" required>
+                                    </div>
+
+                                </div>
+
+                                <div class="cf-right-col">
+
+                                    <!-- Message -->
+                                    <div class="form-group">
+                                        <textarea name="message" id="message" class="input-md round form-control" style="height: 84px;" placeholder="Message"></textarea>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="clearfix">
+
+                                <div class="cf-left-col">
+
+                                    <!-- Inform Tip -->
+                                    <div class="form-tip pt-20">
+                                        <i class="fa fa-info-circle"></i> All the fields are required
+                                    </div>
+
+                                </div>
+
+                                <div class="cf-right-col">
+
+                                    <!-- Send Button -->
+                                    <div class="align-right pt-10">
+                                        <button class="submit_btn btn btn-mod btn-medium btn-round" id="submit_btn">Submit Message</button>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="messages"></div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div id="result"></div>
+                        </form>
+
+                    </div>
+                </div>
+                <!-- End Contact Form -->
+            </div>
+        </section>
+        <!-- End Contact Section -->
+
+
+        <!-- Google Map -->
+        <!-- <div class="google-map">
+
+            <div data-address="Orange County, CA, United States" id="map-canvas"></div>
+
+            <div class="map-section">
+
+                <div class="map-toggle">
+                    <div class="mt-icon">
+                        <i class="fa fa-map-marker"></i>
+                    </div>
+                    <div class="mt-text font-alt">
+                        <div class="mt-open">Open the map
+                            <i class="fa fa-angle-down"></i>
+                        </div>
+                        <div class="mt-close">Close the map
+                            <i class="fa fa-angle-up"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div> -->
+        <!-- End Google Map -->
+
+
+        <!-- Footer -->
+        <footer class="page-section bg-gray-lighter footer pb-60" id="footer">
+            <div class="container footer-container">
+
+                <!-- Footer Logo -->
+                <div class="local-scroll mb-30 wow fadeInUp" data-wow-duration="1.5s">
+                    <a href="#top">
+                        <i class="fa fa-sort-asc fa-4x"></i>
+                    </a>
+                </div>
+                <!-- End Footer Logo -->
+
+                <!-- Social Links -->
+                <div class="footer-social-links mb-110 mb-xs-60" id="footer-links">
+                    <a href="https://www.linkedin.com/in/nick-quan/" title="LinkedIn+" target="_blank">
+                        <i class="fa fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/nickkquan" title="Github" target="_blank">
+                        <i class="fa fa-github"></i>
+                    </a>
+                    <a href="./images/nick_quan_resume.pdf" title="Resume" target="_blank">
+                        <i class="fa fa-file-text"></i>
+                    </a>
+                </div>
+                <!-- End Social Links -->
+
+                <!-- Footer Text -->
+                <div class="footer-text">
+                    <!-- Copyright -->
+                    <div class="footer-copy font-alt">
+                        Nick Quan 2018
+                    </div>
+                    <!-- End Copyright -->
+                    <div class="footer-made">
+                    </div>
+                </div>
+                <!-- End Footer Text -->
+            </div>
+        </footer>
+        <!-- End Foter -->
+    </div>
+    <!-- End Page Wrap -->
+
+
+    <!-- JS -->
+    <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+    <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/SmoothScroll.js"></script>
+    <script type="text/javascript" src="js/jquery.scrollTo.min.js"></script>
+    <script type="text/javascript" src="js/jquery.localScroll.min.js"></script>
+    <script type="text/javascript" src="js/jquery.viewport.mini.js"></script>
+    <!-- <script type="text/javascript" src="js/jquery.countTo.js"></script> -->
+    <script type="text/javascript" src="js/jquery.appear.js"></script>
+    <script type="text/javascript" src="js/jquery.sticky.js"></script>
+    <script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script>
+    <script type="text/javascript" src="js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="js/isotope.pkgd.min.js"></script>
+    <script type="text/javascript" src="js/imagesloaded.pkgd.min.js"></script>
+    <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
+    <!-- <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyALAVY3T3y-pcCkXRuAlLaQnMglQfjCN4o"></script> -->
+    <!-- <script type="text/javascript" src="js/gmap3.min.js"></script> -->
+    <script type="text/javascript" src="js/wow.min.js"></script>
+    <script type="text/javascript" src="js/masonry.pkgd.min.js"></script>
+    <script type="text/javascript" src="js/jquery.simple-text-rotator.min.js"></script>
+    <script type="text/javascript" src="js/all.js"></script>
+    <script type="text/javascript" src="js/contact-form.js"></script>
+    <script type="text/javascript" src="js/jquery.ajaxchimp.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
 </body>
 
 </html>
