@@ -4,9 +4,15 @@
 $(document).ready(function() {
 	$("#submit_btn").click(function() {
 		//get input field values
-		var user_name = $("input[name=name]").val();
-		var user_email = $("input[name=email]").val();
-		var user_message = $("textarea[name=message]").val();
+		var user_name = $("input[name=name]")
+			.val()
+			.trim();
+		var user_email = $("input[name=email]")
+			.val()
+			.trim();
+		var user_message = $("textarea[name=message]")
+			.val()
+			.trim();
 		var url = "php_mailer/mail_handler.php"; // the script where you handle the form input.
 
 		//simple validation at client's end
@@ -38,12 +44,14 @@ $(document).ready(function() {
 
 		//everything looks good! proceed...
 		if (proceed) {
+			$("#submit_btn").text("Sending Message");
 			//data to be sent to server
 			post_data = {
 				userName: user_name,
 				userEmail: user_email,
 				userMessage: user_message
 			};
+
 			$(".form-tip").css("color", "initial");
 			//Ajax post data to server
 			$.ajax({
@@ -62,11 +70,17 @@ $(document).ready(function() {
 						.find("input[type=email], textarea")
 						.val("");
 					var alertBox = "<div class='messageSent'>Message Sent</div>";
+					$("#submit_btn").text("Submit Message");
+					$(".messages .messageSent").remove();
 					$(".messages").append($(alertBox));
 				},
 				error: function(response) {
-					var alertBox = "<div class='messageNotSent'>Please Try Again</div>";
-					$(".messages").append($(alertBox));
+					var alertBox = "<div class='messageNotSent messageError'>Please Try Again</div>";
+					if (response) {
+						$("#submit_btn").text("Submit Message");
+						$(".messages .messageError").remove();
+						$(".messages").append($(alertBox));
+					}
 				}
 			});
 		}

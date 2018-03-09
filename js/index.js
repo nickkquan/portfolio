@@ -4,6 +4,7 @@ function init() {
 	email();
 	phone();
 	closeNav();
+	hideNav();
 	$(".mfp-image").click(portfolioClick);
 }
 function email() {
@@ -31,6 +32,14 @@ function closeNav() {
 		if (opened === true && !clickover.hasClass("clearlist") && !clickover.hasClass("fa-bars")) {
 			$(".mobile-nav").click();
 		}
+	});
+}
+
+function hideNav() {
+	$(document).scroll(() => {
+		$(".js-opened").css({
+			"display": "none"
+		});
 	});
 }
 function portfolioClick() {

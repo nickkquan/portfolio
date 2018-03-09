@@ -136,6 +136,7 @@ Section Text:       15px/1.7 "Open Sans", arial, sans-serif;
     -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
 }
+
 .no-animate, .no-animate *{
     -webkit-transition: 0 none !important;
     -moz-transition: 0 none !important;
@@ -233,7 +234,6 @@ img:not([draggable]), embed, object, video{
     max-width: 100%;
     height: auto;
 }
-
 
 
 /* ==============================
@@ -3397,7 +3397,7 @@ a.logo:hover{
     line-height: 1.2;
 }
 .work-descr{
-    font-size: 13px;
+    font-size: 14px;
     text-align: center;
     text-transform: initial;
     color: #999;
@@ -4069,10 +4069,14 @@ a.logo:hover{
     color: #999;
 }
 
+#footer-links{
+    margin-bottom: 75px;
+}
 
 .footer-social-links{
     font-size: 14px;
 }
+
 .footer-social-links a{
     width: 25px;
     height: 25px;
@@ -4139,6 +4143,10 @@ a.link-to-top{
     text-align: center;
     color: rgba(0,0,0, .2);
     font-size: 48px;
+}
+
+#footer {
+    padding: 20px;
 }
 
 
