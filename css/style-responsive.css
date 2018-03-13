@@ -208,6 +208,11 @@ Primary use:    MultiPurpose Template
 	.container .work-grid-3 .work-item,
 	.work-grid-5 .work-item {
 		width: 50%;
+		margin-top: 10%;
+	}
+
+	.work-descr {
+		margin-bottom: 12%;
 	}
 
 	.blog-item-date {
