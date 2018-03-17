@@ -7,7 +7,7 @@ function init() {
 	hideNav();
 	$(".mfp-image").click(portfolioClick);
 	$(".work-img")
-		.hover(triggerPortfolioGif)
+		.mouseenter(triggerPortfolioGif)
 		.mouseleave(triggerPortfolioStatic);
 }
 function email() {
