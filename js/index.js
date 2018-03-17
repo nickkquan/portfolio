@@ -6,6 +6,9 @@ function init() {
 	closeNav();
 	hideNav();
 	$(".mfp-image").click(portfolioClick);
+	$(".work-img")
+		.hover(triggerPortfolioGif)
+		.mouseleave(triggerPortfolioStatic);
 }
 function email() {
 	var e = "nick";
@@ -34,11 +37,10 @@ function closeNav() {
 		}
 	});
 }
-
 function hideNav() {
 	$(document).scroll(() => {
 		$(".js-opened").css({
-			"display": "none"
+			display: "none"
 		});
 	});
 }
@@ -59,4 +61,30 @@ function portfolioClick() {
 	$(workItem)
 		.find(".work-intro")
 		.toggleClass("removeOpacity", "addOrRemove");
+}
+
+function triggerPortfolioGif() {
+	$(this)
+		.find(".application-static")
+		.css({
+			display: "none"
+		});
+	$(this)
+		.find(".application-gif")
+		.css({
+			display: "block"
+		});
+}
+
+function triggerPortfolioStatic() {
+	$(this)
+		.find(".application-static")
+		.css({
+			display: "block"
+		});
+	$(this)
+		.find(".application-gif")
+		.css({
+			display: "none"
+		});
 }

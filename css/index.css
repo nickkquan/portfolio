@@ -181,8 +181,7 @@ body {
 	-ms-transform: scale(1.05);
 	transform: scale(1.05);
 }
-.imgBackground {
-}
+
 /*end porfolio images*/
 
 @media (max-width: 767px) {
