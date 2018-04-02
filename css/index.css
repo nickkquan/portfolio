@@ -121,6 +121,11 @@ body {
 	height: 25%;
 	width: 23%;
 }
+
+.service-icons-gulp {
+	width: 17.5%;
+}
+
 .service-icons-redux {
 	height: 33%;
 	width: 35%;
