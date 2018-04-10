@@ -92,7 +92,7 @@ gulp.task("default", ["clean", "images", "styles", "scripts"], function() {
 // Zip
 gulp.task("export", function() {
 	return gulp
-		.src("public/**/*")
+		.src("client/**/*")
 		.pipe(zip("website.zip"))
 		.pipe(gulp.dest("./"));
 });
